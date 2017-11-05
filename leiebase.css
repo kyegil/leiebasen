@@ -1,0 +1,252 @@
+body
+{
+	background-color: #eeeeee;
+	background-image: url(../bilder/brodals.jpg);
+}
+
+body.dataload, body.utskrift {
+	background-color: white;
+	background-image: none;
+}
+
+body, p
+{
+	text-align: left;
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+
+#vidujo 
+{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: #eeeeee;
+	background-image: none;
+}
+
+#kaplinio
+{
+	background-color: #a40000;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	height: 47px;
+	position: relative;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+
+#område
+{
+	position: absolute;
+	bottom: 1px;
+	left: 20px;
+}
+
+#bruker
+{
+
+	position: absolute;
+	bottom: 1px;
+	right: 20px;
+
+	color:white;
+	font-size:10px;
+	font-weight:bold;
+}
+
+#navigado
+{
+}
+
+#enhavo
+{
+}
+
+#piedlinio
+{
+}
+
+
+a
+{
+	color: #003333;
+}
+
+td.meny
+{
+	text-align: center;
+	color: white;
+	background-color: transparent;
+	font-size: 10px;
+	font-weight: bold;
+	border-top: 1px solid #868686;
+	border-left: 1px solid black;
+	border-right: 1px solid #868686;
+	padding-bottom: 2px;
+}
+
+td.meny2
+{
+	text-align: center;
+	color: black;
+	background-color: transparent;
+	font-size: 10px;
+	font-weight: bold;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-bottom: 2px;
+}
+
+h1
+{
+	font-size: 1.4em;
+}
+
+h2
+{
+	font-size: 1.2em;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+
+/* 
+Eksperiment-knapp. Ikke i bruk.
+ */
+.knapp {
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	background-color: #aaaaaa;
+}
+
+.dataload table {border-spacing: 0; border-collapse: collapse;}
+.dataload h1 {font-size: 1.5em;}
+.dataload h2 {font-size: 1.3em;}
+.dataload p {text-align: left;}
+.dataload td.value, .dataload th.value {width: 50px; text-align: right;}
+.dataload td, .dataload th {text-align: left; vertical-align: top; padding-left: 5px; padding-right: 5px;}
+.dataload th {font-weight: bold;}
+.bold {font-weight: bold;}
+.green {color: green;}
+.orange {color: orange;}
+.red {color: red;}
+.summary {border-top: thin solid black;}
+.value {text-align: right;}
+
+.table1 td, .table1 th {text-align: left; vertical-align: top; padding-left: 4px; padding-right: 4px; width: 100%;}
+.totalfields {font-weight: bold; font-size: 13px;}
+
+@media print {
+	.beforegroup {page-break-after: avoid}
+	.group {page-break-inside: avoid}
+	.aftergroup {page-break-before: avoid}
+	.page {page-break-after: always}
+}
+
+#utleietabell {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10px;
+	background-color: gray;
+}
+
+
+#utleietabell .overskriftsrad {
+	font-family: arial, helvetica, sans-serif;
+	background-color: white;
+	font-weight: normal;
+	font-size: 10px;
+	position: relative;
+	border-bottom: 1px solid black;
+	height: 14px;
+	text-align: center;
+}
+#utleietabell .overskriftsrad div {
+	border-right: 1px solid black;
+	position: absolute;
+}
+
+
+#utleietabell .bygning {
+	border-bottom: 1px solid black;
+}
+
+
+#utleietabell .leieobjekt {
+	position: relative;
+	border-bottom: 1px solid gray;
+}
+#utleietabell .leieobjekt > div.beskrivelse {
+	background-color: white;
+	color: red;
+	position: absolute;
+	padding-right: 4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	left: 0;
+	width: 65px;
+	height: 100%;
+}
+#utleietabell .leieobjekt > div.beskrivelse div {
+}
+
+
+#utleietabell .leieobjekt > div.leiegrad {
+	display: block;
+	position: relative;
+	left: 65px;
+	height: 11px;
+	background-color: white;
+	width: 90px;
+}
+#utleietabell .leieobjekt > div.leiegrad div {
+	position: absolute;
+	text-align: center;
+	height: 100%;
+}
+
+
+#utleietabell .leieforhold {
+	display: block;
+	position: relative;
+	left: 65px;
+	width: 90px;
+}
+#utleietabell .leieforhold > div.beskrivelse {
+	border-bottom: 1px solid gray;
+	background-color: white;
+	color: green;
+	position: absolute;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 90px;
+	height: 100%;
+}
+#utleietabell .leieforhold > div.beskrivelse div {
+	margin-left: 4px;
+}
+
+
+#utleietabell .termin {
+	border-bottom: 1px solid gray;
+	background-color: white;
+	position: absolute;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+
