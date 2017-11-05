@@ -1,0 +1,13 @@
+[06-Aug-2017 10:57:29 Europe/Oslo] PHP Fatal error:  Uncaught exception 'Exception' with message 'mysqli error: 
+sql:
+SELECT *
+FROM valg
+
+' in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php:193
+Stack trace:
+#0 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(2260): MysqliConnection->arrayData(Array)
+#1 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(60): Leiebase->hentValg()
+#2 /home/svartlam/public_html/boligstiftelsen/flyko/forsiden.php(11): Leiebase->__construct()
+#3 /home/svartlam/public_html/boligstiftelsen/flyko/index.php(22): oppsett->__construct()
+#4 {main}
+  thrown in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php on line 193

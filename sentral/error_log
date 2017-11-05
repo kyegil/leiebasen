@@ -1,0 +1,54 @@
+[05-Aug-2017 04:10:05 Europe/Oslo] PHP Fatal error:  Uncaught exception 'Exception' with message 'mysqli error: Got error 28 from storage engine
+sql:
+SELECT innbetalinger.innbetaling,
+SUM(innbetalinger.beløp) AS balanse
+
+FROM innbetalinger as innbetalinger
+WHERE innbetalinger.konto = '0'
+GROUP BY innbetalinger.innbetaling, innbetalinger.leieforhold
+HAVING SUM(innbetalinger.beløp) != 0
+
+' in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php:193
+Stack trace:
+#0 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(2571): MysqliConnection->arrayData(Array)
+#1 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(2757): Leiebase->kontrollerKredittbalanse()
+#2 /home/svartlam/public_html/boligstiftelsen/sentral/_default.php(13): Leiebase->kontrollrutiner()
+#3 /home/svartlam/public_html/boligstiftelsen/sentral/index.php(19): oppsett->__construct()
+#4 {main}
+  thrown in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php on line 193
+[05-Aug-2017 08:48:37 Europe/Oslo] PHP Fatal error:  Uncaught exception 'Exception' with message 'mysqli error: Got error 28 from storage engine
+sql:
+SELECT innbetalinger.innbetaling,
+SUM(innbetalinger.beløp) AS balanse
+
+FROM innbetalinger as innbetalinger
+WHERE innbetalinger.konto = '0'
+GROUP BY innbetalinger.innbetaling, innbetalinger.leieforhold
+HAVING SUM(innbetalinger.beløp) != 0
+
+' in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php:193
+Stack trace:
+#0 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(2571): MysqliConnection->arrayData(Array)
+#1 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(2757): Leiebase->kontrollerKredittbalanse()
+#2 /home/svartlam/public_html/boligstiftelsen/sentral/_default.php(13): Leiebase->kontrollrutiner()
+#3 /home/svartlam/public_html/boligstiftelsen/sentral/index.php(19): oppsett->__construct()
+#4 {main}
+  thrown in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php on line 193
+[06-Aug-2017 06:38:42 Europe/Oslo] PHP Fatal error:  Uncaught exception 'Exception' with message 'mysqli error: Got error 28 from storage engine
+sql:
+SELECT innbetalinger.innbetaling,
+SUM(innbetalinger.beløp) AS balanse
+
+FROM innbetalinger as innbetalinger
+WHERE innbetalinger.konto = '0'
+GROUP BY innbetalinger.innbetaling, innbetalinger.leieforhold
+HAVING SUM(innbetalinger.beløp) != 0
+
+' in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php:193
+Stack trace:
+#0 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(2571): MysqliConnection->arrayData(Array)
+#1 /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/Leiebase.class.php(2757): Leiebase->kontrollerKredittbalanse()
+#2 /home/svartlam/public_html/boligstiftelsen/sentral/_default.php(13): Leiebase->kontrollrutiner()
+#3 /home/svartlam/public_html/boligstiftelsen/sentral/index.php(19): oppsett->__construct()
+#4 {main}
+  thrown in /home/svartlam/public_html/boligstiftelsen/klassedefinisjoner/MysqliConnection.class.php on line 193
