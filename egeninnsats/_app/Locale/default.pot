@@ -1,0 +1,530 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-02-03 13:34+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/KontojController.php:112;219
+msgid "la konto ne estas specifita"
+msgstr ""
+
+#: Controller/KontojController.php:120;227
+msgid "nekonata konto"
+msgstr ""
+
+#: Controller/KontojController.php:129
+msgid "la konton estas forviŝita"
+msgstr ""
+
+#: Controller/KontojController.php:132
+#: Controller/RekordojController.php:69
+msgid "forigo fiaskis"
+msgstr ""
+
+#: Controller/KontojController.php:178;183;259;264
+msgid "nevalidan konton"
+msgstr ""
+
+#: Controller/KontojController.php:194
+#: Controller/RekordojController.php:132
+#: Controller/UzantojController.php:11
+msgid "la uzanto ne estas specifita"
+msgstr ""
+
+#: Controller/KontojController.php:202
+#: Controller/RekordojController.php:140
+#: Controller/UzantojController.php:16
+msgid "nekonata uzanto"
+msgstr ""
+
+#: Controller/KontojController.php:242
+msgid "la konto estas konservitaj"
+msgstr ""
+
+#: Controller/KontojController.php:245
+#: Controller/RekordojController.php:196
+msgid "konservo fiaskis"
+msgstr ""
+
+#: Controller/RekordojController.php:10;49;157
+msgid "la rekordo ne estas specifita"
+msgstr ""
+
+#: Controller/RekordojController.php:15;57;165
+msgid "nekonata rekordo"
+msgstr ""
+
+#: Controller/RekordojController.php:66
+msgid "la rekordon estas forviŝita"
+msgstr ""
+
+#: Controller/RekordojController.php:116;121;250;255
+msgid "nevalidan rekordon"
+msgstr ""
+
+#: Controller/RekordojController.php:193;208
+msgid "la rekordo estas konservitaj"
+msgstr ""
+
+#: Controller/RekordojController.php:237
+msgid "konservo provo malsukcesis"
+msgstr ""
+
+#: Controller/SpecojController.php:10
+msgid "la speco ne estas specifita"
+msgstr ""
+
+#: Controller/SpecojController.php:15
+msgid "nekonata speco"
+msgstr ""
+
+#: Controller/SpecojController.php:97;102;179;184
+msgid "nevalidan specon"
+msgstr ""
+
+#: Controller/UzantojController.php:46
+msgid "Nevalida salutnomo aŭ pasvorto, reprovu."
+msgstr ""
+
+#: Controller/UzantojController.php:128;133;210;215
+msgid "nevalidan uzanton"
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:8
+msgid "nova konto"
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:31
+#: View/Kontoj/akiru.ctp:13
+#: View/Kontoj/aldonu.ctp:49
+#: View/Kontoj/index.ctp:100
+#: View/Kontoj/sangu.ctp:48
+msgid "nomo"
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:35
+#: View/Elements/kontribuo.form.Panel.ctp:38
+msgid "konfirmu"
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:41
+#: View/Elements/kontribuo.form.Panel.ctp:46
+msgid "sukceso"
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:48;54
+#: View/Elements/kontribuo.form.Panel.ctp:52;58
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:39
+msgid "fiasko"
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:48
+#: View/Elements/kontribuo.form.Panel.ctp:52
+msgid "La peto estis sendita al la servilo, sed la servilo ne sukcesis konfirmi la ekzekuton. La ligo al la servilo eble ne perdiĝus."
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:51
+#: View/Elements/kontribuo.form.Panel.ctp:55
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:44;47
+msgid "problemo"
+msgstr ""
+
+#: View/Elements/Ext.window.NovaKonto.ctp:51
+#: View/Elements/kontribuo.form.Panel.ctp:55
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:47
+msgid "La peto estis sendita al la servilo, sed la servilo ne sukcesis konfirmi la ekzekuton. La servilo donis la sekvan respondon:"
+msgstr ""
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:16
+msgid "elektu konton"
+msgstr ""
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:46
+msgid "kreu novan konton"
+msgstr ""
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:79
+#: View/Elements/Kontribuo.form.field.SpecoKombo.ctp:54
+msgid "serĉo en progreso"
+msgstr ""
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:80
+#: View/Elements/Kontribuo.form.field.SpecoKombo.ctp:55
+msgid "neniu sukcesoj"
+msgstr ""
+
+#: View/Elements/Kontribuo.form.field.SpecoKombo.ctp:14
+msgid "elektu specon"
+msgstr ""
+
+#: View/Elements/kontribuo.button.Reen.ctp:13
+msgid "reen"
+msgstr ""
+
+#: View/Elements/kontribuo.form.field.Date.ctp:12
+msgid "dato"
+msgstr ""
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:7
+msgid "bonvolu konfirmi"
+msgstr ""
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:8
+msgid "Ĉu vi vere volas forigi ĉi?"
+msgstr ""
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:26
+msgid "bonvolu atendi"
+msgstr ""
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:34
+msgid "forigita"
+msgstr ""
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:44
+msgid "La peto estis sendita al la servilo, sed la servilo ne sukcesis konfirmi la ekzekuton. La ligo al la servilo eble ne perdiĝus. Provu reŝarĝi la retumilo fenestro."
+msgstr ""
+
+#: View/Elements/kontribuo.grid.Panel.ctp:31
+msgid "aldonu alian"
+msgstr ""
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:18
+msgid "hejmo"
+msgstr ""
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:28
+msgid "listo de kontoj"
+msgstr ""
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:38
+msgid "mia kontribuo"
+msgstr ""
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:49
+msgid "registru kontribuo"
+msgstr ""
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:58
+msgid "aliĝu grupon kontribuo"
+msgstr ""
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:67
+msgid "eliru"
+msgstr ""
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:83
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:269
+msgid "kontribuo"
+msgstr ""
+
+#: View/Kontoj/akiru.ctp:5
+#: View/Kontoj/index.ctp:94
+#: View/Kontoj/vidu.ctp:199
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:260
+#: View/Rekordoj/index.ctp:98
+#: View/Specoj/akiru.ctp:5
+#: View/Specoj/index.ctp:91
+#: View/Specoj/indexHtml.ctp:7
+#: View/Uzantoj/akiru.ctp:5
+#: View/Uzantoj/index.ctp:95
+msgid "ensalutilo"
+msgstr ""
+
+#: View/Kontoj/akiru.ctp:9
+#: View/Kontoj/aldonu.ctp:56
+#: View/Kontoj/index.ctp:106
+#: View/Kontoj/sangu.ctp:55
+msgid "mastro"
+msgstr ""
+
+#: View/Kontoj/akiru.ctp:17
+msgid "nombro de rekordo"
+msgstr ""
+
+#: View/Kontoj/aldonu.ctp:3
+msgid "aldonu konto"
+msgstr ""
+
+#: View/Kontoj/aldonu.ctp:33
+#: View/Kontoj/sangu.ctp:3;32
+#: View/Kontoj/vidu.ctp:3
+#: View/Rekordoj/aldonu.ctp:132
+#: View/Rekordoj/index.ctp:103
+#: View/Rekordoj/sangu.ctp:129
+#: View/Uzantoj/akiru.ctp:21
+msgid "konto"
+msgstr ""
+
+#: View/Kontoj/index.ctp:3;39
+msgid "kontoj"
+msgstr ""
+
+#: View/Kontoj/index.ctp:68
+#: View/Rekordoj/index.ctp:73
+#: View/Specoj/index.ctp:66
+#: View/Uzantoj/index.ctp:70
+msgid "vidu"
+msgstr ""
+
+#: View/Kontoj/index.ctp:74
+msgid "ŝanĝu konton"
+msgstr ""
+
+#: View/Kontoj/index.ctp:80
+#: View/Kontoj/vidu.ctp:185
+msgid "forviŝu"
+msgstr ""
+
+#: View/Kontoj/sangu.ctp:71
+#: View/Rekordoj/sangu.ctp:243
+#: View/Specoj/sangu.ctp:86
+#: View/Uzantoj/sangu.ctp:78
+msgid "formo estas estante ŝarĝita"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:39
+#: View/Rekordoj/index.ctp:3;35;170
+msgid "rekordoj"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:106
+msgid "laŭ dato"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:115
+msgid "antaŭ dato"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:140
+msgid "serĉo"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:179
+msgid "ŝanĝu ĝin"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:205
+#: View/Rekordoj/aldonu.ctp:191
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:211
+#: View/Rekordoj/index.ctp:109
+#: View/Rekordoj/sangu.ctp:176
+msgid "komencis tempo"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:212
+#: View/Rekordoj/aldonu.ctp:202
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:222
+#: View/Rekordoj/index.ctp:114
+#: View/Rekordoj/sangu.ctp:185
+msgid "finis tempo"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:218
+#: View/Rekordoj/aldonu.ctp:219
+#: View/Rekordoj/index.ctp:119
+#: View/Rekordoj/sangu.ctp:202
+msgid "kvanto"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:224
+#: View/Rekordoj/aldonu.ctp:184
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:198
+#: View/Rekordoj/index.ctp:125
+#: View/Rekordoj/sangu.ctp:209
+#: View/Specoj/akiru.ctp:9
+#: View/Specoj/index.ctp:96
+#: View/Specoj/indexHtml.ctp:8
+msgid "speco"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:231
+#: View/Rekordoj/aldonu.ctp:145
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:157
+#: View/Rekordoj/index.ctp:131
+#: View/Rekordoj/sangu.ctp:142
+msgid "priskribo"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:237
+#: View/Rekordoj/index.ctp:141
+msgid "matrikulisto"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:245
+#: View/Rekordoj/index.ctp:147
+msgid "tempo de enskribo"
+msgstr ""
+
+#: View/Kontoj/vidu.ctp:262
+msgid "registru novan kontribuo"
+msgstr ""
+
+#: View/Rekordoj/aldonu.ctp:3
+msgid "aldonu rekordo"
+msgstr ""
+
+#: View/Rekordoj/aldonu.ctp:46
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:47
+#: View/Rekordoj/sangu.ctp:3;48
+#: View/Rekordoj/vidu.ctp:3;39
+msgid "rekordo"
+msgstr ""
+
+#: View/Rekordoj/aldonu.ctp:154
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:166
+#: View/Rekordoj/index.ctp:136
+#: View/Rekordoj/sangu.ctp:150
+msgid "detaloj"
+msgstr ""
+
+#: View/Rekordoj/aldonu.ctp:174
+#: View/Rekordoj/sangu.ctp:170
+msgid "kategorioj"
+msgstr ""
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:3
+msgid "aldonu grupo kontribuoj"
+msgstr ""
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:176;190;244;245
+msgid "Elektu kategorioj"
+msgstr ""
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:277
+msgid "partoprenanto"
+msgstr ""
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:295
+msgid "partoprenantoj"
+msgstr ""
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:338
+msgid "neniu kategorioj estas selektitaj"
+msgstr ""
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:339
+msgid "Ĉu vi certas ke vi volas submetiĝi tiuj enskriboj sen selektante unu aŭ pli kategorioj?<br>La kategorioj povas esti elektitaj el la maldekstra kolumno."
+msgstr ""
+
+#: View/Rekordoj/index.ctp:79
+#: View/Specoj/index.ctp:72
+#: View/Uzantoj/index.ctp:76
+msgid "ŝanĝi ĝin"
+msgstr ""
+
+#: View/Rekordoj/index.ctp:85
+#: View/Specoj/index.ctp:78
+#: View/Specoj/indexHtml.ctp:10
+#: View/Uzantoj/index.ctp:82
+msgid "forviŝi"
+msgstr ""
+
+#: View/Specoj/akiru.ctp:13
+#: View/Specoj/index.ctp:101
+#: View/Specoj/indexHtml.ctp:9
+msgid "unuo"
+msgstr ""
+
+#: View/Specoj/aldonu.ctp:3;36
+#: View/Specoj/sangu.ctp:3;35
+#: View/Specoj/vidu.ctp:3;41
+msgid "speco de kontribuo"
+msgstr ""
+
+#: View/Specoj/aldonu.ctp:64
+#: View/Specoj/sangu.ctp:63
+msgid "nomo de la speco"
+msgstr ""
+
+#: View/Specoj/aldonu.ctp:71
+#: View/Specoj/sangu.ctp:70
+msgid "mezurunuo"
+msgstr ""
+
+#: View/Specoj/index.ctp:3;39;124
+msgid "specoj de kontribuo"
+msgstr ""
+
+#: View/Specoj/indexHtml.ctp:1
+msgid "Specoj de kontribuo"
+msgstr ""
+
+#: View/Specoj/indexHtml.ctp:2
+msgid "aldonu novan specon de kontribuo"
+msgstr ""
+
+#: View/Uzantoj/akiru.ctp:9
+#: View/Uzantoj/aldonu.ctp:33;49
+#: View/Uzantoj/ensalutu.ctp:9
+#: View/Uzantoj/index.ctp:100
+#: View/Uzantoj/sangu.ctp:3;32;48
+#: View/Uzantoj/vidu.ctp:3;39
+msgid "uzanto"
+msgstr ""
+
+#: View/Uzantoj/akiru.ctp:13
+#: View/Uzantoj/aldonu.ctp:63
+#: View/Uzantoj/index.ctp:105
+#: View/Uzantoj/sangu.ctp:62
+msgid "rolo"
+msgstr ""
+
+#: View/Uzantoj/akiru.ctp:17
+#: View/Uzantoj/index.ctp:110
+msgid "tempo de kreo"
+msgstr ""
+
+#: View/Uzantoj/akiru.ctp:25
+#: View/Uzantoj/index.ctp:120
+msgid "tempozono"
+msgstr ""
+
+#: View/Uzantoj/aldonu.ctp:3
+msgid "aldonu uzanto"
+msgstr ""
+
+#: View/Uzantoj/aldonu.ctp:56
+#: View/Uzantoj/ensalutu.ctp:12
+#: View/Uzantoj/sangu.ctp:55
+msgid "pasvorto"
+msgstr ""
+
+#: View/Uzantoj/ensalutu.ctp:6
+msgid "Bonvolu tajpi vian salutnomon kaj pasvorton"
+msgstr ""
+
+#: View/Uzantoj/ensalutu.ctp:17
+msgid "Ensalutu"
+msgstr ""
+
+#: View/Uzantoj/index.ctp:3;39;143
+msgid "uzantoj"
+msgstr ""
+
+#: View/Uzantoj/index.ctp:115
+msgid "ĉefa konto"
+msgstr ""
+
+#: Model/Uzanto.php:validation for field uzanto
+msgid "Uzantonomon estas bezonata"
+msgstr ""
+
+#: Model/Uzanto.php:validation for field pasvorto
+msgid "Pasvorta postulas"
+msgstr ""
+
+#: Model/Uzanto.php:validation for field role
+msgid "Bonvolu entajpi validan rolon"
+msgstr ""
+

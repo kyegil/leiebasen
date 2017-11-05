@@ -1,0 +1,598 @@
+[29-Sep-2014 11:32:52 Europe/Berlin] PHP Fatal error:  Invalid opcode 153/1/8. in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/plugins/DebugKit/Controller/Component/ToolbarComponent.php on line 179
+[09-Oct-2014 16:34:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/AccountsController.php on line 58
+[09-Oct-2014 16:34:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/AccountsController.php on line 58
+[09-Oct-2014 16:35:41 Europe/Berlin] PHP Fatal error:  Call to a member function find() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/AccountsController.php on line 54
+[10-Oct-2014 11:01:45 Europe/Berlin] PHP Fatal error:  Call to a member function findById() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/AccountsController.php on line 62
+[10-Oct-2014 11:02:31 Europe/Berlin] PHP Fatal error:  Call to a member function findById() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/AccountsController.php on line 62
+[21-Nov-2014 13:21:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting T_FUNCTION in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Model/AppModel.php on line 66
+[26-Nov-2014 14:48:05 Europe/Berlin] PHP Fatal error:  Call to undefined function echo__() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 1
+[26-Nov-2014 14:51:44 Europe/Berlin] PHP Fatal error:  Call to undefined function echo__() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 1
+[26-Nov-2014 14:52:13 Europe/Berlin] PHP Fatal error:  Call to undefined function echo__() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 1
+[27-Nov-2014 01:00:37 Europe/Berlin] PHP Fatal error:  Call to undefined function echo__() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 4
+[30-Nov-2014 00:30:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/KindsController.php on line 57
+[30-Nov-2014 00:30:39 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/KindsController.php on line 57
+[30-Nov-2014 00:30:56 Europe/Berlin] PHP Fatal error:  Call to undefined method KindsController::assign() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/Controller/KindsController.php on line 56
+[30-Nov-2014 00:58:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 1
+[30-Nov-2014 23:23:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 2
+[30-Nov-2014 23:25:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 2
+[01-Dec-2014 10:27:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 2
+[01-Dec-2014 10:27:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 2
+[01-Dec-2014 10:28:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_ECHO in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 2
+[01-Dec-2014 10:29:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected '-', expecting '}' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Kinds/index.ctp on line 2
+[01-Dec-2014 10:33:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Layouts/default.ctp on line 41
+[02-Dec-2014 10:17:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/cakephp-2_5_4/app/View/Elements/stokado.ctp on line 34
+[08-Dec-2014 23:42:47 Europe/Berlin] PHP Fatal error:  Call to a member function paginate() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KindsController.php on line 66
+[08-Dec-2014 23:42:47 Europe/Berlin] PHP Fatal error:  Call to a member function paginate() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KindsController.php on line 66
+[09-Dec-2014 10:53:52 Europe/Berlin] PHP Fatal error:  Call to undefined function render() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/index.ctp on line 86
+[09-Dec-2014 11:07:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_STRING in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.container.Viewport.ctp on line 14
+[09-Dec-2014 11:09:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.container.Viewport.ctp on line 15
+[09-Dec-2014 11:11:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.container.Viewport.ctp on line 15
+[09-Dec-2014 11:11:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.container.Viewport.ctp on line 15
+[09-Dec-2014 11:12:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.container.Viewport.ctp on line 15
+[09-Dec-2014 11:16:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/index.ctp on line 85
+[09-Dec-2014 13:44:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting '(' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/index.ctp on line 87
+[09-Dec-2014 15:54:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting '}' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.panel.Panel.ctp on line 21
+[09-Dec-2014 15:57:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting '}' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.panel.Panel.ctp on line 21
+[09-Dec-2014 16:00:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected ',', expecting '}' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/Ext.panel.Panel.ctp on line 21
+[10-Dec-2014 00:19:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Layouts/default.ctp on line 36
+[10-Dec-2014 21:26:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting T_STRING or T_VARIABLE or '{' or '$' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/vidi.ctp on line 28
+[10-Dec-2014 23:11:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VAR in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/sangi.ctp on line 28
+[11-Dec-2014 10:44:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/sangi.ctp on line 62
+[26-Dec-2014 20:26:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/vidi.ctp on line 29
+[26-Dec-2014 21:16:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/sangi.ctp on line 53
+[26-Dec-2014 21:19:02 Europe/Berlin] PHP Fatal error:  Call to undefined function add() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kinds/sangi.ctp on line 75
+[30-Dec-2014 00:19:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KindsController.php on line 48
+[31-Dec-2014 19:04:05 Europe/Berlin] PHP Fatal error:  Call to a member function find() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KindsController.php on line 69
+[31-Dec-2014 19:05:43 Europe/Berlin] PHP Fatal error:  Call to a member function find() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KindsController.php on line 69
+[31-Dec-2014 19:08:38 Europe/Berlin] PHP Fatal error:  Call to a member function find() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KindsController.php on line 69
+[05-Jan-2015 14:50:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KindsController.php on line 78
+[12-Jan-2015 14:33:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/UzantojController.php on line 217
+[12-Jan-2015 16:12:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 61
+[12-Jan-2015 16:41:06 UTC] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 1819570786 bytes) in  on line 61
+[12-Jan-2015 23:37:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KategorioPetskribojnController.php on line 16
+[12-Jan-2015 23:39:59 UTC] PHP Fatal error:  Call to a member function generateTreeList() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KategorioPetskribojnController.php on line 7
+[13-Jan-2015 13:26:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Enirejoj/index.ctp on line 105
+[14-Jan-2015 12:35:53 UTC] PHP Fatal error:  Cannot redeclare KontojController::aldonu() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 58
+[14-Jan-2015 21:57:27 UTC] PHP Fatal error:  Call to a member function findById() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 42
+[14-Jan-2015 22:02:40 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 42
+[15-Jan-2015 11:08:43 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kontoj/vidu.ctp on line 149
+[16-Jan-2015 17:41:40 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/kontribuo.tree.CheckTree.ctp on line 29
+[16-Jan-2015 17:48:39 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KategorioPetskribojnController.php on line 11
+[19-Jan-2015 11:23:32 UTC] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KategorioPetskribojnController.php on line 94
+[20-Jan-2015 12:01:18 UTC] PHP Fatal error:  Cannot redeclare KategorioPetskribon::afterFind() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/KategorioPetskribon.php on line 34
+[20-Jan-2015 12:02:18 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/KategorioPetskribon.php on line 33
+[20-Jan-2015 14:32:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 71
+[20-Jan-2015 14:32:45 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 71
+[20-Jan-2015 21:39:08 UTC] PHP Fatal error:  Call to undefined method KontojController::element() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 94
+[20-Jan-2015 21:45:44 UTC] PHP Fatal error:  Call to undefined method KontojController::element() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 94
+[20-Jan-2015 22:16:25 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ']' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 51
+[21-Jan-2015 10:28:07 UTC] PHP Fatal error:  Call to undefined method KontojController::element() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[21-Jan-2015 10:31:36 UTC] PHP Fatal error:  Call to undefined method KontojController::element() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[21-Jan-2015 11:04:07 UTC] PHP Fatal error:  Call to undefined method KontojController::element() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[21-Jan-2015 12:26:18 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kontoj/vidu.ctp on line 182
+[21-Jan-2015 12:34:42 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kontoj/vidu.ctp on line 50
+[21-Jan-2015 12:35:03 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kontoj/vidu.ctp on line 50
+[22-Jan-2015 10:12:47 UTC] PHP Parse error:  syntax error, unexpected '=', expecting '&' or T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/KategorioPetskribon.php on line 33
+[22-Jan-2015 10:13:10 UTC] PHP Parse error:  syntax error, unexpected '=', expecting '&' or T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/KategorioPetskribon.php on line 33
+[22-Jan-2015 10:14:00 UTC] PHP Parse error:  syntax error, unexpected '=', expecting '&' or T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/KategorioPetskribon.php on line 33
+[22-Jan-2015 10:14:48 UTC] PHP Parse error:  syntax error, unexpected '=', expecting '&' or T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/KategorioPetskribon.php on line 33
+[22-Jan-2015 12:27:36 UTC] PHP Fatal error:  Call to undefined method EnirejojController::extFormattedCheckTree() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/EnirejojController.php on line 22
+[22-Jan-2015 12:28:53 UTC] PHP Fatal error:  Call to a member function extFormattedCheckTree() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/Enirejo.php on line 38
+[22-Jan-2015 12:35:24 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/Enirejo.php on line 29
+[22-Jan-2015 12:51:02 UTC] PHP Parse error:  syntax error, unexpected T_ARRAY in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/Enirejo.php on line 37
+[22-Jan-2015 12:52:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/Enirejo.php on line 37
+[22-Jan-2015 13:00:29 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/EnirejojController.php on line 26
+[22-Jan-2015 13:12:14 UTC] PHP Fatal error:  Call to undefined method EnirejojController::idsAsArray() in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/EnirejojController.php on line 24
+[23-Jan-2015 14:33:43 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/kontribuo.form.Panel.ctp on line 26
+[23-Jan-2015 14:34:01 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/kontribuo.form.Panel.ctp on line 26
+[27-Jan-2015 14:22:52 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Enirejoj/aldonu_grupo_kontribuoj.ctp on line 251
+[27-Jan-2015 20:47:00 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Enirejoj/aldonu_grupo_kontribuoj.ctp on line 250
+[28-Jan-2015 23:50:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/RekordojController.php on line 221
+[29-Jan-2015 14:44:56 UTC] PHP Fatal error:  Class 'L10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 83
+[29-Jan-2015 14:46:07 UTC] PHP Fatal error:  Class 'L10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 84
+[29-Jan-2015 14:46:11 UTC] PHP Fatal error:  Class 'L10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 84
+[29-Jan-2015 14:47:36 UTC] PHP Fatal error:  Class 'L10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 84
+[29-Jan-2015 14:47:55 UTC] PHP Fatal error:  Class 'L10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 84
+[29-Jan-2015 14:50:02 UTC] PHP Fatal error:  Class 'l10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 85
+[29-Jan-2015 14:51:18 UTC] PHP Fatal error:  Class 'L10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 85
+[29-Jan-2015 14:53:24 UTC] PHP Fatal error:  Class 'L10n' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 84
+[29-Jan-2015 14:54:45 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 84
+[29-Jan-2015 16:01:11 UTC] PHP Fatal error:  Class 'Controller' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 33
+[29-Jan-2015 16:01:11 UTC] PHP Fatal error:  Class 'Controller' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 33
+[29-Jan-2015 16:01:13 UTC] PHP Fatal error:  Class 'Controller' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 33
+[29-Jan-2015 16:02:19 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 84
+[29-Jan-2015 16:14:43 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 85
+[29-Jan-2015 16:29:28 UTC] PHP Fatal error:  Class 'IntlDateFormatter' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/AppController.php on line 86
+[29-Jan-2015 17:26:03 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 98
+[29-Jan-2015 17:26:35 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 96
+[29-Jan-2015 17:26:57 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 17:28:03 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 21:20:43 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 98
+[29-Jan-2015 22:23:55 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:26:07 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:30:13 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:36:45 UTC] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 92
+[29-Jan-2015 22:37:35 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 92
+[29-Jan-2015 22:37:44 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 92
+[29-Jan-2015 22:44:55 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:45:01 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:45:14 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:47:05 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:47:58 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:47:59 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:48:43 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:48:44 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:48:45 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:50:14 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:50:15 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 22:52:10 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 23:03:24 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 93
+[29-Jan-2015 23:14:59 UTC] PHP Parse error:  syntax error, unexpected $end in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 157
+[29-Jan-2015 23:30:38 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kontoj/json/akiru_rekordojn.ctp on line 2
+[29-Jan-2015 23:34:45 UTC] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kontoj/json/akiru_rekordojn.ctp on line 2
+[30-Jan-2015 00:14:31 UTC] PHP Fatal error:  Unsupported operand types in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 94
+[30-Jan-2015 00:18:10 UTC] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 154
+[30-Jan-2015 00:24:06 UTC] PHP Fatal error:  Call to a member function findById() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 94
+[30-Jan-2015 00:30:46 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 94
+[30-Jan-2015 00:31:18 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 153
+[30-Jan-2015 00:32:54 UTC] PHP Fatal error:  Cannot use object of type Uzanto as array in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/KontojController.php on line 95
+[30-Jan-2015 11:25:20 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/UzantojController.php on line 34
+[30-Jan-2015 11:37:28 UTC] PHP Fatal error:  Call to a member function saveField() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/UzantojController.php on line 37
+[30-Jan-2015 14:22:35 UTC] PHP Parse error:  syntax error, unexpected T_VAR in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Elements/kontribuo.navigado.Navigado.ctp on line 9
+[30-Jan-2015 16:31:15 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/Uzanto.php on line 13
+[30-Jan-2015 16:31:54 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/Uzanto.php on line 13
+[30-Jan-2015 16:41:41 UTC] PHP Fatal error:  Call to a member function trovuLaEnsalutintaUzanto() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/RekordojController.php on line 115
+[30-Jan-2015 16:42:52 UTC] PHP Fatal error:  Call to a member function trovuLaEnsalutintaUzanto() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/RekordojController.php on line 115
+[30-Jan-2015 16:45:33 UTC] PHP Fatal error:  Call to a member function user() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Model/Uzanto.php on line 44
+[30-Jan-2015 17:23:33 UTC] PHP Fatal error:  Class 'Uzanto' not found in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/Controller/RekordojController.php on line 115
+[30-Jan-2015 17:26:01 UTC] PHP Fatal error:  Call to a member function read() on a non-object in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Rekordoj/sangu.ctp on line 28
+[31-Jan-2015 00:24:07 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Rekordoj/aldonu_grupo_kontribuoj.ctp on line 267
+[31-Jan-2015 23:49:08 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Kontoj/vidu.ctp on line 266
+[03-Feb-2015 12:09:25 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Rekordoj/aldonu.ctp on line 123
+[03-Feb-2015 12:10:09 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Rekordoj/aldonu.ctp on line 123
+[03-Feb-2015 12:10:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/svartlam/public_html/boligstiftelsen/egeninnsats/app/View/Rekordoj/aldonu.ctp on line 123
+[27-Feb-2015 12:41:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/svartlam/Cake/app/Controller/UzantojController.php on line 48
+[27-Feb-2015 12:41:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/svartlam/Cake/app/Controller/UzantojController.php on line 48
+[27-Feb-2015 12:41:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/svartlam/Cake/app/Controller/UzantojController.php on line 48
+[28-Feb-2015 11:41:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[28-Feb-2015 11:41:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/Helper.php on line 853
+[28-Feb-2015 20:23:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 196
+[01-Mar-2015 20:11:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 198
+[01-Mar-2015 20:17:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 94
+[01-Mar-2015 20:23:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[01-Mar-2015 21:57:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[01-Mar-2015 22:04:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[01-Mar-2015 22:10:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 231
+[02-Mar-2015 03:04:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[02-Mar-2015 03:10:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[02-Mar-2015 03:17:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[02-Mar-2015 09:13:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 365
+[02-Mar-2015 09:18:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[02-Mar-2015 09:27:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 141
+[02-Mar-2015 13:08:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 197
+[02-Mar-2015 13:14:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 229
+[02-Mar-2015 13:16:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 196
+[02-Mar-2015 13:43:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/Helper.php on line 877
+[02-Mar-2015 21:44:42 UTC] PHP Fatal error:  Call to a member function purigu() on a non-object in /home/svartlam/Cake/app/Controller/UnufojajBiletojController.php on line 10
+[02-Mar-2015 21:50:04 UTC] PHP Fatal error:  Nesting level too deep - recursive dependency? in /home/svartlam/Cake/app/Controller/UnufojajBiletojController.php on line 11
+[02-Mar-2015 21:52:02 UTC] PHP Fatal error:  Nesting level too deep - recursive dependency? in /home/svartlam/Cake/app/Controller/UnufojajBiletojController.php on line 11
+[02-Mar-2015 21:55:22 UTC] PHP Fatal error:  Call to a member function purigu() on a non-object in /home/svartlam/Cake/app/Controller/UnufojajBiletojController.php on line 10
+[03-Mar-2015 08:19:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[03-Mar-2015 11:43:51 UTC] PHP Fatal error:  Call to a member function findByRetpoŝto() on a non-object in /home/svartlam/Cake/app/Controller/UnufojaBiletojController.php on line 17
+[03-Mar-2015 11:45:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/svartlam/Cake/app/Model/UnufojaBileto.php on line 27
+[03-Mar-2015 11:47:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/svartlam/Cake/app/Model/UnufojaBileto.php on line 27
+[03-Mar-2015 17:17:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[03-Mar-2015 17:23:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[03-Mar-2015 17:29:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 113
+[03-Mar-2015 23:48:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 198
+[03-Mar-2015 23:55:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 248
+[04-Mar-2015 00:01:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[05-Mar-2015 16:59:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 197
+[05-Mar-2015 17:04:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 94
+[08-Mar-2015 19:17:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[08-Mar-2015 19:24:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[08-Mar-2015 19:30:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 437
+[09-Mar-2015 01:46:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 129
+[09-Mar-2015 01:53:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[09-Mar-2015 01:59:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[12-Mar-2015 10:26:30 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home/svartlam/Cake/app/Controller/AppController.php on line 46
+[12-Mar-2015 10:26:42 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home/svartlam/Cake/app/Controller/AppController.php on line 46
+[12-Mar-2015 10:26:55 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home/svartlam/Cake/app/Controller/AppController.php on line 46
+[12-Mar-2015 12:27:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[12-Mar-2015 14:13:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[12-Mar-2015 14:14:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/I18n/I18n.php on line 205
+[12-Mar-2015 20:26:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[12-Mar-2015 20:34:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 103
+[12-Mar-2015 20:59:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[12-Mar-2015 22:25:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[13-Mar-2015 09:06:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[13-Mar-2015 09:11:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 100
+[13-Mar-2015 10:00:55 UTC] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/Cake/app/Controller/KontojController.php on line 283
+[13-Mar-2015 10:01:13 UTC] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/Cake/app/Controller/KontojController.php on line 283
+[13-Mar-2015 10:01:28 UTC] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/Cake/app/Controller/KontojController.php on line 283
+[13-Mar-2015 10:01:33 UTC] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/Cake/app/Controller/KontojController.php on line 283
+[13-Mar-2015 10:03:00 UTC] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/Cake/app/Controller/KontojController.php on line 283
+[13-Mar-2015 10:04:20 UTC] PHP Parse error:  syntax error, unexpected T_IF, expecting T_FUNCTION in /home/svartlam/Cake/app/Controller/KontojController.php on line 283
+[13-Mar-2015 10:46:42 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/svartlam/Cake/app/View/Elements/Ext.window.NovaKonto.ctp on line 40
+[13-Mar-2015 10:47:04 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /home/svartlam/Cake/app/View/Elements/Ext.window.NovaKonto.ctp on line 40
+[13-Mar-2015 10:52:05 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/svartlam/Cake/app/View/Elements/Ext.window.NovaKonto.ctp on line 40
+[13-Mar-2015 11:46:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/Cake/app/Controller/KontojController.php on line 292
+[13-Mar-2015 11:48:21 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/Cake/app/Controller/KontojController.php on line 292
+[13-Mar-2015 11:48:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/Cake/app/Controller/KontojController.php on line 292
+[13-Mar-2015 11:48:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/Cake/app/Controller/KontojController.php on line 292
+[13-Mar-2015 11:49:16 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/svartlam/Cake/app/Controller/KontojController.php on line 292
+[13-Mar-2015 11:57:10 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/Cake/app/Controller/KontojController.php on line 289
+[13-Mar-2015 11:57:13 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/Cake/app/Controller/KontojController.php on line 289
+[13-Mar-2015 11:57:29 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/Cake/app/Controller/KontojController.php on line 289
+[13-Mar-2015 11:57:50 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/Cake/app/Controller/KontojController.php on line 289
+[13-Mar-2015 12:52:47 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/svartlam/Cake/app/Controller/RekordojController.php on line 53
+[13-Mar-2015 16:40:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[13-Mar-2015 18:18:59 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home/svartlam/Cake/app/View/Rekordoj/aldonu_grupo_kontribuoj.ctp on line 285
+[15-Mar-2015 18:44:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[15-Mar-2015 22:51:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Mar-2015 17:14:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[16-Mar-2015 17:14:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[17-Mar-2015 07:36:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 292
+[17-Mar-2015 07:36:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 280
+[19-Mar-2015 00:28:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 117
+[19-Mar-2015 00:51:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[19-Mar-2015 18:11:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[19-Mar-2015 21:56:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 127
+[20-Mar-2015 08:32:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 242
+[20-Mar-2015 08:39:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[20-Mar-2015 08:45:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[21-Mar-2015 12:03:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 120
+[21-Mar-2015 22:32:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[21-Mar-2015 22:39:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[21-Mar-2015 22:45:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 231
+[22-Mar-2015 05:42:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[22-Mar-2015 05:48:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[22-Mar-2015 05:55:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 111
+[22-Mar-2015 11:36:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 280
+[22-Mar-2015 11:43:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[22-Mar-2015 11:50:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 229
+[22-Mar-2015 17:21:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 235
+[23-Mar-2015 12:06:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 100
+[23-Mar-2015 12:07:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 120
+[23-Mar-2015 15:39:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[23-Mar-2015 17:07:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[23-Mar-2015 17:08:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 103
+[24-Mar-2015 07:34:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 126
+[24-Mar-2015 09:47:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 100
+[24-Mar-2015 09:51:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 108
+[24-Mar-2015 09:58:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 100
+[24-Mar-2015 12:29:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 198
+[24-Mar-2015 13:37:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 365
+[24-Mar-2015 13:42:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 229
+[24-Mar-2015 14:54:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 112
+[24-Mar-2015 15:56:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 292
+[24-Mar-2015 15:57:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[24-Mar-2015 21:11:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[25-Mar-2015 06:49:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 113
+[25-Mar-2015 12:57:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 100
+[25-Mar-2015 13:03:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 239
+[25-Mar-2015 13:10:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Log/Engine/FileLog.php on line 190
+[25-Mar-2015 13:25:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[25-Mar-2015 13:29:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[25-Mar-2015 13:40:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 236
+[25-Mar-2015 14:05:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[25-Mar-2015 15:40:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 236
+[25-Mar-2015 21:23:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[25-Mar-2015 21:29:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 120
+[25-Mar-2015 21:36:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 200
+[26-Mar-2015 00:21:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 237
+[26-Mar-2015 08:10:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[26-Mar-2015 12:19:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 239
+[26-Mar-2015 15:33:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 236
+[26-Mar-2015 17:08:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 358
+[28-Mar-2015 01:52:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[28-Mar-2015 21:06:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 120
+[28-Mar-2015 21:17:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[29-Mar-2015 12:21:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 94
+[29-Mar-2015 12:28:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 239
+[29-Mar-2015 12:34:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[29-Mar-2015 18:19:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[29-Mar-2015 18:25:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 292
+[29-Mar-2015 18:31:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 340
+[31-Mar-2015 23:54:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[01-Apr-2015 08:58:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[01-Apr-2015 09:16:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[03-Apr-2015 10:27:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[05-Apr-2015 08:30:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[06-Apr-2015 09:22:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[06-Apr-2015 09:22:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[06-Apr-2015 19:01:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 229
+[06-Apr-2015 21:04:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 144
+[08-Apr-2015 06:55:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[08-Apr-2015 18:21:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[08-Apr-2015 18:26:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 198
+[08-Apr-2015 21:17:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[08-Apr-2015 21:21:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[09-Apr-2015 06:18:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 113
+[09-Apr-2015 06:23:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 308
+[09-Apr-2015 08:36:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[09-Apr-2015 15:02:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 235
+[09-Apr-2015 15:46:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[13-Apr-2015 18:15:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[15-Apr-2015 04:58:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 142
+[16-Apr-2015 20:17:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[16-Apr-2015 20:43:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[18-Apr-2015 09:44:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[20-Apr-2015 17:11:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[23-Apr-2015 15:31:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 101
+[23-Apr-2015 20:25:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 108
+[24-Apr-2015 07:59:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[24-Apr-2015 08:06:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 111
+[24-Apr-2015 09:56:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[30-Apr-2015 11:47:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 129
+[30-Apr-2015 11:54:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[01-May-2015 17:40:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[03-May-2015 21:04:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[04-May-2015 12:29:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 238
+[04-May-2015 12:36:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[04-May-2015 17:16:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 101
+[04-May-2015 17:18:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[04-May-2015 22:54:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[06-May-2015 14:51:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 235
+[06-May-2015 14:57:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[06-May-2015 15:02:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 229
+[06-May-2015 15:12:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 95
+[06-May-2015 15:28:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[06-May-2015 15:41:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 108
+[07-May-2015 06:46:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 95
+[07-May-2015 06:47:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[08-May-2015 22:10:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/View.php on line 1022
+[08-May-2015 22:31:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[09-May-2015 07:36:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 108
+[11-May-2015 19:57:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[11-May-2015 20:01:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[11-May-2015 20:15:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[12-May-2015 12:29:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[12-May-2015 12:29:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[12-May-2015 21:36:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[13-May-2015 07:11:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[13-May-2015 10:10:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 231
+[13-May-2015 11:21:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 0
+[13-May-2015 16:35:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 304
+[14-May-2015 16:40:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 242
+[14-May-2015 16:41:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 116
+[15-May-2015 00:55:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-May-2015 09:17:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[16-May-2015 09:31:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 233
+[16-May-2015 09:31:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 226
+[17-May-2015 06:04:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 243
+[17-May-2015 06:04:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 362
+[18-May-2015 11:20:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[18-May-2015 11:22:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[19-May-2015 00:01:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[20-May-2015 09:50:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[20-May-2015 09:51:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/View.php on line 948
+[21-May-2015 18:02:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[24-May-2015 18:06:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 129
+[25-May-2015 08:08:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 239
+[26-May-2015 08:15:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 121
+[26-May-2015 09:18:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[26-May-2015 09:21:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 244
+[26-May-2015 18:09:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[26-May-2015 22:02:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[27-May-2015 09:31:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[27-May-2015 20:33:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[29-May-2015 12:40:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[29-May-2015 12:45:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 235
+[29-May-2015 16:39:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[31-May-2015 02:00:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[31-May-2015 02:04:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 94
+[31-May-2015 18:46:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/View.php on line 904
+[01-Jun-2015 14:16:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 240
+[01-Jun-2015 14:17:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[01-Jun-2015 14:45:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 98
+[02-Jun-2015 16:50:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 198
+[03-Jun-2015 09:30:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[03-Jun-2015 09:35:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[03-Jun-2015 12:20:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 100
+[03-Jun-2015 17:35:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[03-Jun-2015 23:30:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[04-Jun-2015 10:46:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[05-Jun-2015 19:08:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[07-Jun-2015 10:59:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[07-Jun-2015 10:59:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 239
+[07-Jun-2015 16:32:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 304
+[07-Jun-2015 16:38:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 100
+[08-Jun-2015 11:04:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 239
+[08-Jun-2015 16:52:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[12-Jun-2015 08:50:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 112
+[12-Jun-2015 11:46:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 210
+[12-Jun-2015 22:22:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 113
+[12-Jun-2015 22:44:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 237
+[12-Jun-2015 23:17:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[12-Jun-2015 23:44:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 362
+[13-Jun-2015 16:43:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 231
+[13-Jun-2015 17:07:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 324
+[14-Jun-2015 12:18:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[14-Jun-2015 15:06:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 140
+[16-Jun-2015 13:18:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Jun-2015 13:24:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Jun-2015 15:31:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[18-Jun-2015 07:25:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[20-Jun-2015 11:57:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[20-Jun-2015 23:38:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 337
+[23-Jun-2015 09:01:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[23-Jun-2015 18:08:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/Helper.php on line 0
+[24-Jun-2015 00:45:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[24-Jun-2015 00:46:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 0
+[24-Jun-2015 09:43:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 307
+[24-Jun-2015 13:45:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[26-Jun-2015 05:05:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 212
+[26-Jun-2015 05:05:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[26-Jun-2015 14:37:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 127
+[28-Jun-2015 13:44:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[28-Jun-2015 13:49:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 196
+[28-Jun-2015 13:51:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[28-Jun-2015 16:38:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 211
+[28-Jun-2015 20:00:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[28-Jun-2015 20:08:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[29-Jun-2015 06:08:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[29-Jun-2015 16:27:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[29-Jun-2015 18:50:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[29-Jun-2015 18:53:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 237
+[30-Jun-2015 13:00:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 101
+[01-Jul-2015 13:41:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 308
+[04-Jul-2015 06:09:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 304
+[05-Jul-2015 00:34:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[05-Jul-2015 10:34:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[05-Jul-2015 10:36:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 144
+[06-Jul-2015 13:39:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 100
+[06-Jul-2015 17:05:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 113
+[06-Jul-2015 19:22:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[06-Jul-2015 20:43:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 332
+[07-Jul-2015 10:49:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 129
+[08-Jul-2015 09:45:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 197
+[10-Jul-2015 13:43:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 95
+[10-Jul-2015 13:44:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 226
+[10-Jul-2015 15:38:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[14-Jul-2015 20:28:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 308
+[14-Jul-2015 20:28:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[14-Jul-2015 20:52:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[14-Jul-2015 20:53:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[15-Jul-2015 17:05:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[15-Jul-2015 18:58:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Jul-2015 20:01:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Jul-2015 20:04:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 101
+[16-Jul-2015 20:11:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 116
+[17-Jul-2015 02:06:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 98
+[19-Jul-2015 09:14:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 95
+[20-Jul-2015 10:41:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 129
+[22-Jul-2015 14:50:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[26-Jul-2015 16:12:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[27-Jul-2015 17:31:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 118
+[28-Jul-2015 10:44:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 111
+[28-Jul-2015 10:45:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 0
+[28-Jul-2015 14:59:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[31-Jul-2015 10:26:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 308
+[01-Aug-2015 08:29:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[01-Aug-2015 08:37:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 100
+[01-Aug-2015 16:20:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[02-Aug-2015 23:46:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 0
+[03-Aug-2015 11:33:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[04-Aug-2015 16:38:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[06-Aug-2015 19:37:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[06-Aug-2015 22:36:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 108
+[07-Aug-2015 21:14:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Log/Engine/FileLog.php on line 142
+[07-Aug-2015 23:03:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[08-Aug-2015 15:51:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 196
+[09-Aug-2015 22:06:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 324
+[12-Aug-2015 16:53:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[12-Aug-2015 19:12:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[12-Aug-2015 19:13:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[13-Aug-2015 06:40:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 196
+[13-Aug-2015 06:43:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 116
+[15-Aug-2015 18:32:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 113
+[15-Aug-2015 18:44:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 312
+[16-Aug-2015 19:35:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 101
+[17-Aug-2015 09:14:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[17-Aug-2015 19:47:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 112
+[18-Aug-2015 11:43:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 340
+[18-Aug-2015 11:44:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 98
+[18-Aug-2015 12:01:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 127
+[19-Aug-2015 08:51:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 304
+[21-Aug-2015 12:43:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[23-Aug-2015 20:13:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 304
+[23-Aug-2015 21:06:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 120
+[24-Aug-2015 05:38:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[25-Aug-2015 13:53:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[25-Aug-2015 17:22:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 236
+[25-Aug-2015 17:22:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[26-Aug-2015 07:18:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 101
+[26-Aug-2015 07:24:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[26-Aug-2015 07:25:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 230
+[26-Aug-2015 08:26:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 231
+[26-Aug-2015 08:55:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 0
+[27-Aug-2015 10:22:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 228
+[27-Aug-2015 10:31:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/View.php on line 1070
+[27-Aug-2015 10:32:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 0
+[27-Aug-2015 11:54:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[27-Aug-2015 14:41:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 123
+[27-Aug-2015 16:40:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[27-Aug-2015 20:20:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 99
+[28-Aug-2015 17:21:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 98
+[29-Aug-2015 15:59:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 228
+[29-Aug-2015 16:07:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[31-Aug-2015 10:47:00 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 120
+[31-Aug-2015 17:14:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[01-Sep-2015 15:08:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[01-Sep-2015 15:59:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[01-Sep-2015 23:37:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[02-Sep-2015 02:30:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 308
+[02-Sep-2015 02:37:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 248
+[02-Sep-2015 02:43:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[03-Sep-2015 12:51:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[04-Sep-2015 02:38:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 111
+[04-Sep-2015 05:36:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 108
+[04-Sep-2015 07:31:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 239
+[05-Sep-2015 12:29:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[06-Sep-2015 10:11:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[06-Sep-2015 10:11:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[06-Sep-2015 11:43:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 240
+[08-Sep-2015 18:48:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[08-Sep-2015 18:48:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 107
+[08-Sep-2015 20:07:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 229
+[08-Sep-2015 20:26:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 144
+[09-Sep-2015 12:41:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[09-Sep-2015 13:29:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/Helper.php on line 352
+[10-Sep-2015 05:10:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[10-Sep-2015 08:53:12 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 116
+[10-Sep-2015 10:00:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[11-Sep-2015 13:26:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 198
+[11-Sep-2015 13:33:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 229
+[11-Sep-2015 13:39:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 304
+[11-Sep-2015 20:43:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 233
+[11-Sep-2015 20:50:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 98
+[11-Sep-2015 20:56:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[12-Sep-2015 00:23:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[12-Sep-2015 00:42:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[12-Sep-2015 01:00:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 144
+[12-Sep-2015 02:05:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 235
+[12-Sep-2015 02:12:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 118
+[12-Sep-2015 02:18:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 280
+[14-Sep-2015 21:34:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 95
+[15-Sep-2015 10:57:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 100
+[15-Sep-2015 14:00:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 127
+[15-Sep-2015 14:07:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 235
+[15-Sep-2015 14:13:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[15-Sep-2015 21:14:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 226
+[15-Sep-2015 21:21:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[15-Sep-2015 21:27:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Sep-2015 00:30:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 95
+[16-Sep-2015 00:37:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 235
+[16-Sep-2015 00:44:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 202
+[16-Sep-2015 06:23:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Sep-2015 06:29:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 212
+[16-Sep-2015 06:35:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/String.php on line 234
+[16-Sep-2015 12:18:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[16-Sep-2015 12:25:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[16-Sep-2015 12:31:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[16-Sep-2015 15:31:35 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[17-Sep-2015 00:38:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 109
+[17-Sep-2015 09:07:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 127
+[17-Sep-2015 17:00:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[18-Sep-2015 11:41:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 122
+[19-Sep-2015 15:31:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Log/Engine/FileLog.php on line 142
+[19-Sep-2015 15:37:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[19-Sep-2015 15:43:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[19-Sep-2015 21:09:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/Debugger.php on line 347
+[19-Sep-2015 21:15:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 198
+[19-Sep-2015 21:22:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEvent.php on line 236
+[21-Sep-2015 19:10:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 109
+[21-Sep-2015 20:29:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 200
+[21-Sep-2015 20:32:04 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_FUNCTION in /home/svartlam/Cake/app/Controller/UzantojController.php on line 31
+[21-Sep-2015 20:47:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 242
+[21-Sep-2015 21:13:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[21-Sep-2015 21:16:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[21-Sep-2015 21:27:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Event/CakeEventManager.php on line 280
+[21-Sep-2015 21:32:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[21-Sep-2015 21:39:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 95
+[21-Sep-2015 21:55:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 112
+[02-Oct-2015 14:43:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/View/HelperCollection.php on line 200
+[21-Oct-2015 04:30:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 128
+[21-Oct-2015 04:35:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 137
+[17-Dec-2016 07:51:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/svartlam/Cake/lib/Cake/Utility/ObjectCollection.php on line 109

@@ -1,0 +1,472 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kontribuo 2015-01-29\n"
+"POT-Creation-Date: 2015-01-29 10:41+0000\n"
+"PO-Revision-Date: 2015-02-03 13:59-0000\n"
+"Last-Translator: Kay-Egil Hauan <kyegil@gmail.com>\n"
+"Language-Team: YLN <kyegil@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: Controller/KontojController.php:112;219
+msgid "la konto ne estas specifita"
+msgstr "Det er ikke oppgitt noen konto"
+
+#: Controller/KontojController.php:120;227
+msgid "nekonata konto"
+msgstr "ukjent konto"
+
+#: Controller/KontojController.php:129
+msgid "la konton estas forviŝita"
+msgstr "kontoen er slettet"
+
+#: Controller/KontojController.php:132 Controller/RekordojController.php:69
+msgid "forigo fiaskis"
+msgstr "slettingen mislyktes"
+
+#: Controller/KontojController.php:178;183;259;264
+msgid "nevalidan konton"
+msgstr "ugyldig konto"
+
+#: Controller/KontojController.php:194 Controller/RekordojController.php:132
+#: Controller/UzantojController.php:11
+msgid "la uzanto ne estas specifita"
+msgstr "det er ikke angitt noen bruker"
+
+#: Controller/KontojController.php:202 Controller/RekordojController.php:140
+#: Controller/UzantojController.php:16
+msgid "nekonata uzanto"
+msgstr "ukjent bruker"
+
+#: Controller/KontojController.php:242
+msgid "la konto estas konservitaj"
+msgstr "kontoen er lagret"
+
+#: Controller/KontojController.php:245 Controller/RekordojController.php:196
+msgid "konservo fiaskis"
+msgstr "lagringen mislyktes"
+
+#: Controller/RekordojController.php:10;49;157
+msgid "la rekordo ne estas specifita"
+msgstr "oppføringen er ikke oppgitt"
+
+#: Controller/RekordojController.php:15;57;165
+msgid "nekonata rekordo"
+msgstr "ukjent oppslag"
+
+#: Controller/RekordojController.php:66
+msgid "la rekordon estas forviŝita"
+msgstr "oppføringen er slettet"
+
+#: Controller/RekordojController.php:116;121;250;255
+msgid "nevalidan rekordon"
+msgstr "ugyldig oppslag"
+
+#: Controller/RekordojController.php:193;208
+msgid "la rekordo estas konservitaj"
+msgstr "oppslaget er lagret"
+
+#: Controller/RekordojController.php:237
+msgid "konservo provo malsukcesis"
+msgstr "lagringen mislyktes"
+
+#: Controller/SpecojController.php:10
+msgid "la speco ne estas specifita"
+msgstr "bidragstype er ikke opgitt"
+
+#: Controller/SpecojController.php:15
+msgid "nekonata speco"
+msgstr "ukjent bidragstype"
+
+#: Controller/SpecojController.php:97;102;179;184
+msgid "nevalidan specon"
+msgstr "ugyldig bidragstype"
+
+#: Controller/UzantojController.php:46
+msgid "Nevalida salutnomo aŭ pasvorto, reprovu."
+msgstr "Ugyldig brukernavn eller passord, prøv igjen."
+
+#: Controller/UzantojController.php:128;133;210;215
+msgid "nevalidan uzanton"
+msgstr "ugyldig bruker"
+
+#: View/Elements/Ext.window.NovaKonto.ctp:8
+msgid "nova konto"
+msgstr "ny konto"
+
+#: View/Elements/Ext.window.NovaKonto.ctp:31 View/Kontoj/akiru.ctp:13
+#: View/Kontoj/aldonu.ctp:49 View/Kontoj/index.ctp:100
+#: View/Kontoj/sangu.ctp:48
+msgid "nomo"
+msgstr "navn"
+
+#: View/Elements/kontribuo.form.Panel.ctp:38
+msgid "konfirmu"
+msgstr "bekreft"
+
+#: View/Elements/Ext.window.NovaKonto.ctp:41
+#: View/Elements/kontribuo.form.Panel.ctp:46
+msgid "sukceso"
+msgstr "Utført"
+
+#: View/Elements/Ext.window.NovaKonto.ctp:48;54
+#: View/Elements/kontribuo.form.Panel.ctp:52;58
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:39
+msgid "fiasko"
+msgstr "mislyktes"
+
+#: View/Elements/Ext.window.NovaKonto.ctp:48
+#: View/Elements/kontribuo.form.Panel.ctp:52
+msgid "La peto estis sendita al la servilo, sed la servilo ne sukcesis konfirmi la ekzekuton. La ligo al la servilo eble ne perdiĝus."
+msgstr "Forespørselen ble sendt til tjeneren, men det kom ingen bekreftelse på at den er utført. Tilkoblingen til serveren kan ha gått tapt."
+
+#: View/Elements/Ext.window.NovaKonto.ctp:51
+#: View/Elements/kontribuo.form.Panel.ctp:55
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:44;47
+msgid "problemo"
+msgstr "problem"
+
+#: View/Elements/Ext.window.NovaKonto.ctp:51
+#: View/Elements/kontribuo.form.Panel.ctp:55
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:47
+msgid "La peto estis sendita al la servilo, sed la servilo ne sukcesis konfirmi la ekzekuton. La servilo donis la sekvan respondon:"
+msgstr "Forespørselen ble sendt til tjeneren, men det kom ingen bekreftelse på at den er utført. Serveren ga følgende svar:"
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:16
+msgid "elektu konton"
+msgstr "velg konto"
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:46
+msgid "kreu novan konton"
+msgstr "opprett ny konto"
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:79
+#: View/Elements/Kontribuo.form.field.SpecoKombo.ctp:54
+msgid "serĉo en progreso"
+msgstr "søker"
+
+#: View/Elements/Kontribuo.form.field.KontoKombo.ctp:80
+#: View/Elements/Kontribuo.form.field.SpecoKombo.ctp:55
+msgid "neniu sukcesoj"
+msgstr "ingen treff"
+
+#: View/Elements/Kontribuo.form.field.SpecoKombo.ctp:14
+msgid "elektu specon"
+msgstr "velg type"
+
+#: View/Elements/kontribuo.button.Reen.ctp:13
+msgid "reen"
+msgstr "tilbake"
+
+#: View/Elements/kontribuo.form.field.Date.ctp:12
+msgid "dato"
+msgstr "dato"
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:7
+msgid "bonvolu konfirmi"
+msgstr "vennligst bekreft"
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:8
+msgid "Ĉu vi vere volas forigi ĉi?"
+msgstr "Er du sikker på at du vil slette?"
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:26
+msgid "bonvolu atendi"
+msgstr "vennligst vent"
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:34
+msgid "forigita"
+msgstr "fjernet"
+
+#: View/Elements/kontribuo.funkcioj.Forvisu.ctp:44
+msgid "La peto estis sendita al la servilo, sed la servilo ne sukcesis konfirmi la ekzekuton. La ligo al la servilo eble ne perdiĝus. Provu reŝarĝi la retumilo fenestro."
+msgstr "Forespørselen ble sendt til tjeneren, men det kom ingen bekreftelse på at den er utført. Tilkoblingen til serveren kan ha gått tapt. Prøv å restarte nettleservinduet."
+
+#: View/Elements/kontribuo.grid.Panel.ctp:31
+msgid "aldonu alian"
+msgstr "Opprett ny"
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:18
+msgid "hejmo"
+msgstr "hjem"
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:28
+msgid "listo de kontoj"
+msgstr "kontooversikt"
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:38
+msgid "mia kontribuo"
+msgstr "mitt bidrag"
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:49
+msgid "registru kontribuo"
+msgstr "registrer bidrag"
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:58
+msgid "aliĝu grupon kontribuo"
+msgstr "registrer dugnad"
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:67
+msgid "eliru"
+msgstr "logg av"
+
+#: View/Elements/kontribuo.navigado.Navigado.ctp:83
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:269
+msgid "kontribuo"
+msgstr "bidrag"
+
+#: View/Kontoj/akiru.ctp:5 View/Kontoj/index.ctp:94 View/Kontoj/vidu.ctp:199
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:260 View/Rekordoj/index.ctp:98
+#: View/Specoj/akiru.ctp:5 View/Specoj/index.ctp:91
+#: View/Specoj/indexHtml.ctp:7 View/Uzantoj/akiru.ctp:5
+#: View/Uzantoj/index.ctp:95
+msgid "ensalutilo"
+msgstr "id"
+
+#: View/Kontoj/akiru.ctp:9 View/Kontoj/aldonu.ctp:56 View/Kontoj/index.ctp:106
+#: View/Kontoj/sangu.ctp:55
+msgid "mastro"
+msgstr "eier"
+
+#: View/Kontoj/akiru.ctp:17
+msgid "nombro de rekordo"
+msgstr "antall oppslag"
+
+#: View/Kontoj/aldonu.ctp:3
+msgid "aldonu konto"
+msgstr "ny konto"
+
+#: View/Kontoj/aldonu.ctp:33 View/Kontoj/sangu.ctp:3;32 View/Kontoj/vidu.ctp:3
+#: View/Rekordoj/aldonu.ctp:132 View/Rekordoj/index.ctp:103
+#: View/Rekordoj/sangu.ctp:129 View/Uzantoj/akiru.ctp:21
+msgid "konto"
+msgstr "konto"
+
+#: View/Kontoj/index.ctp:3;39
+msgid "kontoj"
+msgstr "kontoer"
+
+#: View/Kontoj/index.ctp:68 View/Rekordoj/index.ctp:73
+#: View/Specoj/index.ctp:66 View/Uzantoj/index.ctp:70
+msgid "vidu"
+msgstr "vis"
+
+#: View/Kontoj/index.ctp:74
+msgid "ŝanĝu konton"
+msgstr "endre"
+
+#: View/Kontoj/index.ctp:80 View/Kontoj/vidu.ctp:185
+msgid "forviŝu"
+msgstr "slett"
+
+#: View/Kontoj/sangu.ctp:71 View/Rekordoj/sangu.ctp:243
+#: View/Specoj/sangu.ctp:86 View/Uzantoj/sangu.ctp:78
+msgid "formo estas estante ŝarĝita"
+msgstr "henter data"
+
+#: View/Kontoj/vidu.ctp:39 View/Rekordoj/index.ctp:3;35;170
+msgid "rekordoj"
+msgstr "oppslag"
+
+#: View/Kontoj/vidu.ctp:106
+msgid "laŭ dato"
+msgstr "fra dato"
+
+#: View/Kontoj/vidu.ctp:115
+msgid "antaŭ dato"
+msgstr "til dato"
+
+#: View/Kontoj/vidu.ctp:140
+msgid "serĉo"
+msgstr "søk"
+
+#: View/Kontoj/vidu.ctp:179
+msgid "ŝanĝu ĝin"
+msgstr "endre"
+
+#: View/Kontoj/vidu.ctp:205 View/Rekordoj/aldonu.ctp:191
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:211 View/Rekordoj/index.ctp:109
+#: View/Rekordoj/sangu.ctp:176
+msgid "komencis tempo"
+msgstr "påbegynt"
+
+#: View/Kontoj/vidu.ctp:212 View/Rekordoj/aldonu.ctp:202
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:222 View/Rekordoj/index.ctp:114
+#: View/Rekordoj/sangu.ctp:185
+msgid "finis tempo"
+msgstr "avsluttet"
+
+#: View/Kontoj/vidu.ctp:218 View/Rekordoj/aldonu.ctp:219
+#: View/Rekordoj/index.ctp:119 View/Rekordoj/sangu.ctp:202
+msgid "kvanto"
+msgstr "mengde"
+
+#: View/Kontoj/vidu.ctp:224 View/Rekordoj/aldonu.ctp:184
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:198 View/Rekordoj/index.ctp:125
+#: View/Rekordoj/sangu.ctp:209 View/Specoj/akiru.ctp:9
+#: View/Specoj/index.ctp:96 View/Specoj/indexHtml.ctp:8
+msgid "speco"
+msgstr "type"
+
+#: View/Kontoj/vidu.ctp:231 View/Rekordoj/aldonu.ctp:145
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:157 View/Rekordoj/index.ctp:131
+#: View/Rekordoj/sangu.ctp:142
+msgid "priskribo"
+msgstr "beskrivelse"
+
+#: View/Kontoj/vidu.ctp:237 View/Rekordoj/index.ctp:141
+msgid "matrikulisto"
+msgstr "registrar"
+
+#: View/Kontoj/vidu.ctp:245 View/Rekordoj/index.ctp:147
+msgid "tempo de enskribo"
+msgstr "registrert"
+
+#: View/Kontoj/vidu.ctp:262
+msgid "registru novan kontribuo"
+msgstr "registrer nytt bidrag"
+
+#: View/Rekordoj/aldonu.ctp:3
+msgid "aldonu rekordo"
+msgstr "ny oppføring"
+
+#: View/Rekordoj/aldonu.ctp:46 View/Rekordoj/aldonu_grupo_kontribuoj.ctp:47
+#: View/Rekordoj/sangu.ctp:3;48 View/Rekordoj/vidu.ctp:3;39
+msgid "rekordo"
+msgstr "oppføring"
+
+#: View/Rekordoj/aldonu.ctp:154 View/Rekordoj/aldonu_grupo_kontribuoj.ctp:166
+#: View/Rekordoj/index.ctp:136 View/Rekordoj/sangu.ctp:150
+msgid "detaloj"
+msgstr "detaljer"
+
+#: View/Rekordoj/aldonu.ctp:174 View/Rekordoj/sangu.ctp:170
+msgid "kategorioj"
+msgstr "kategorier"
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:3
+msgid "aldonu grupo kontribuoj"
+msgstr "registrer dugnad"
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:176;190;244;245
+msgid "Elektu kategorioj"
+msgstr "Velg kategorier"
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:277
+msgid "partoprenanto"
+msgstr "deltaker"
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:295
+msgid "partoprenantoj"
+msgstr "deltakere"
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:338
+msgid "neniu kategorioj estas selektitaj"
+msgstr "ingen kategorier er valgt"
+
+#: View/Rekordoj/aldonu_grupo_kontribuoj.ctp:339
+msgid "Ĉu vi certas ke vi volas submetiĝi tiuj enskriboj sen selektante unu aŭ pli kategorioj?<br>La kategorioj povas esti elektitaj el la maldekstra kolumno."
+msgstr "Er du sikker på at du vil legge inn disse oppføringene uten å velge en eller flere kategorier? Kategoriene kan velges fra venstre kolonne."
+
+#: View/Rekordoj/index.ctp:79 View/Specoj/index.ctp:72
+#: View/Uzantoj/index.ctp:76
+msgid "ŝanĝi ĝin"
+msgstr "endre"
+
+#: View/Rekordoj/index.ctp:85 View/Specoj/index.ctp:78
+#: View/Specoj/indexHtml.ctp:10 View/Uzantoj/index.ctp:82
+msgid "forviŝi"
+msgstr "slette"
+
+#: View/Specoj/akiru.ctp:13 View/Specoj/index.ctp:101
+#: View/Specoj/indexHtml.ctp:9
+msgid "unuo"
+msgstr "enhet"
+
+#: View/Specoj/aldonu.ctp:3;36 View/Specoj/sangu.ctp:3;35
+#: View/Specoj/vidu.ctp:3;41
+msgid "speco de kontribuo"
+msgstr "bidragstype"
+
+#: View/Specoj/aldonu.ctp:64 View/Specoj/sangu.ctp:63
+msgid "nomo de la speco"
+msgstr "navn på type"
+
+#: View/Specoj/aldonu.ctp:71 View/Specoj/sangu.ctp:70
+msgid "mezurunuo"
+msgstr "målenhet"
+
+#: View/Specoj/index.ctp:3;39;124
+msgid "specoj de kontribuo"
+msgstr "bidragstyper"
+
+#: View/Specoj/indexHtml.ctp:1
+msgid "Specoj de kontribuo"
+msgstr "Bidragstyper"
+
+#: View/Specoj/indexHtml.ctp:2
+msgid "aldonu novan specon de kontribuo"
+msgstr "legg til ny bidragstype"
+
+#: View/Uzantoj/akiru.ctp:9 View/Uzantoj/aldonu.ctp:33;49
+#: View/Uzantoj/ensalutu.ctp:9 View/Uzantoj/index.ctp:100
+#: View/Uzantoj/sangu.ctp:3;32;48 View/Uzantoj/vidu.ctp:3;39
+msgid "uzanto"
+msgstr "bruker"
+
+#: View/Uzantoj/akiru.ctp:13 View/Uzantoj/aldonu.ctp:63
+#: View/Uzantoj/index.ctp:105 View/Uzantoj/sangu.ctp:62
+msgid "rolo"
+msgstr "rolle"
+
+#: View/Uzantoj/akiru.ctp:17 View/Uzantoj/index.ctp:110
+msgid "tempo de kreo"
+msgstr "opprettelses­tidspunkt"
+
+#: View/Uzantoj/akiru.ctp:25 View/Uzantoj/index.ctp:120
+msgid "tempozono"
+msgstr "tidssone"
+
+#: View/Uzantoj/aldonu.ctp:3
+msgid "aldonu uzanto"
+msgstr "legg til bruker"
+
+#: View/Uzantoj/aldonu.ctp:56 View/Uzantoj/ensalutu.ctp:12
+#: View/Uzantoj/sangu.ctp:55
+msgid "pasvorto"
+msgstr "passord"
+
+#: View/Uzantoj/ensalutu.ctp:6
+msgid "Bonvolu tajpi vian salutnomon kaj pasvorton"
+msgstr "Skriv inn brukernavn og passord"
+
+#: View/Uzantoj/ensalutu.ctp:17
+msgid "Ensalutu"
+msgstr "Logg inn"
+
+#: View/Uzantoj/index.ctp:3;39;143
+msgid "uzantoj"
+msgstr "brukere"
+
+#: View/Uzantoj/index.ctp:115
+msgid "ĉefa konto"
+msgstr "hovedkonto"
+
+#: Model/Uzanto.php:validation for field uzanto
+msgid "Uzantonomon estas bezonata"
+msgstr "Brukernavn er påkrevd"
+
+#: Model/Uzanto.php:validation for field pasvorto
+msgid "Pasvorta postulas"
+msgstr "Det kreves et passord"
+
+#: Model/Uzanto.php:validation for field role
+msgid "Bonvolu entajpi validan rolon"
+msgstr "Skriv inn en gyldig rolle"

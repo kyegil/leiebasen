@@ -1,0 +1,3 @@
+<?
+	$this->extend('/Komuna/kerno');
+?>
