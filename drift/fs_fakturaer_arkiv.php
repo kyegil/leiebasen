@@ -100,7 +100,7 @@ Ext.onReady(function() {
 		align: 'right',
 		dataIndex: 'fakturabeløp',
 		header: 'Beløp',
-		renderer: Ext.util.Format.noMoney, 
+		renderer: Ext.util.Format.noMoney,
 		sortable: true,
 		width: 90
 	};
@@ -121,7 +121,7 @@ Ext.onReady(function() {
 	var fradato = {
 		dataIndex: 'fradato',
 		header: 'Fra dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 80
 	};
@@ -129,7 +129,7 @@ Ext.onReady(function() {
 	var tildato = {
 		dataIndex: 'tildato',
 		header: 'Til dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 80
 	};

@@ -132,7 +132,7 @@ Ext.onReady(function() {
 				<?php else:?> + delkrav<?php echo $delkrav->id?>.getValue()
 				<?php endif;?>
 			 <?php endforeach;?>;
-			 
+			
 			leiebeløp.setValue( årsleie );
 		}
 	}
@@ -148,7 +148,7 @@ Ext.onReady(function() {
 
 	Ext.define('Leieobjekt', {
 		 extend: 'Ext.data.Model',
-		 
+		
 		 // http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.data.Field
 		 fields: [
 			 {name: 'leieobjektnr',				type: 'int'},
@@ -162,8 +162,8 @@ Ext.onReady(function() {
 			 {name: 'avtaletekst',				type: 'string'}
 		 ]
 	 });
-	 
-	 
+	
+	
 	var forespørsel = 0;
 
 
@@ -1072,7 +1072,7 @@ function hentData($data = "") {
 						&&	$leieforhold->hent('oppsigelse')->fristillelsesdato
 								< $oppsigelse->fristillelsesdato
 						&&	$leieobjekt->hentUtleie(
-							$leieforhold->hent('oppsigelse')->fristillelsesdato 
+							$leieforhold->hent('oppsigelse')->fristillelsesdato
 						)->ledig > 0
 						)
 					) {
@@ -1083,7 +1083,7 @@ function hentData($data = "") {
 				
 				if($oppsigelse) {
 					$andelSomVilFristilles = $leieobjekt->hentUtleie(
-						$oppsigelse->fristillelsesdato 
+						$oppsigelse->fristillelsesdato
 					)->ledig;
 					
 					$beskrivelse .= (

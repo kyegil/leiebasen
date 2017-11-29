@@ -59,7 +59,7 @@ Ext.onReady(function() {
 		name: 'id',
 		labelWidth: 120
 	});
-	 
+	
 	var dato = Ext.create('Ext.form.field.Date', {
 		allowBlank: false,
 		fieldLabel: 'Transaksjonsdato',
@@ -70,7 +70,7 @@ Ext.onReady(function() {
 		value: '<?php echo date('Y-m-d') ;?>',
 		tabIndex: 1
 	});
-	 
+	
 	var beløp = Ext.create('Ext.form.field.Number', {
 		allowBlank: false,
 		allowDecimals: true,
@@ -110,14 +110,14 @@ Ext.onReady(function() {
 		name: 'referanse',
 		tabIndex: 5
 	});
-	 
+	
 	var merknad = Ext.create('Ext.form.field.Text', {
 		fieldLabel: 'Evt. merknader',
 		width: 200,
 		name: 'merknad',
 		tabIndex: 6
 	});
-	 
+	
 	var leieforhold = Ext.create('Ext.form.field.ComboBox', {
 		allowBlank: true,
 		fieldLabel: 'Leieforhold',
@@ -241,12 +241,12 @@ Ext.onReady(function() {
 			if(action.type == 'load') {
 				lagreknapp.enable();
 				lagreOgNyKnapp.enable();
-			} 
+			}
 		},
 							
 		actionfailed: function(form,action) {
 			if(action.type == 'load') {
-				if (action.failureType == "connect") { 
+				if (action.failureType == "connect") {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke laste data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {
@@ -269,7 +269,7 @@ Ext.onReady(function() {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke lagre data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {	
-					var result = Ext.JSON.decode(action.response.responseText); 
+					var result = Ext.JSON.decode(action.response.responseText);
 					if(result && result.msg) {			
 						Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 					}

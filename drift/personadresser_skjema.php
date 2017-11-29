@@ -70,7 +70,7 @@ Ext.onReady(function() {
 		name: 'fornavn',
 		width: 190
 	});
-	 
+	
 	var etternavn = new Ext.form.TextField({
 		allowBlank:false,
 		fieldLabel: 'Etternavn',
@@ -78,7 +78,7 @@ Ext.onReady(function() {
 		name: 'etternavn',
 		width: 190
 	});
-	 
+	
 	var er_org = new Ext.form.Checkbox({
 		boxLabel: 'Firma / organisasjon',
 		inputValue: 1,
@@ -102,7 +102,7 @@ Ext.onReady(function() {
 			}
 		}
 	});
-	 
+	
 	var fødselsdato = new Ext.form.DateField({
 		fieldLabel: 'Fødselsdato',
 		name: 'fødselsdato',
@@ -110,61 +110,61 @@ Ext.onReady(function() {
 		altFormats: "j.n.y|j.n.Y|j/n/y|j/n/Y|j-n-y|j-n-Y|j. M y|j. M -y|j. M. Y|j. F -y|j. F y|j. F Y|j/n|j-n|dm|dmy|dmY|d|Y-m-d",
 		width: 190
 	});
-	 
+	
 	var personnr = new Ext.form.TextField({
 		fieldLabel: 'Personnr (siste 5 siffer)',
 		name: 'personnr',
 		width: 190
 	});
-	 
+	
 	var adresse1 = new Ext.form.TextField({
 		fieldLabel: 'Adresse',
 		name: 'adresse1',
 		width: 190
 	});
-	 
+	
 	var adresse2 = new Ext.form.TextField({
 		labelSeparator: '',
 		name: 'adresse2',
 		width: 190
 	});
-	 
+	
 	var postnr = new Ext.form.TextField({
 		fieldLabel: 'Postnr',
 		name: 'postnr',
 		width: 50
 	});
-	 
+	
 	var poststed = new Ext.form.TextField({
 		fieldLabel: 'Poststed',
 		name: 'poststed',
 		width: 190
 	});
-	 
+	
 	var land = new Ext.form.TextField({
 		fieldLabel: '(Land)',
 		name: 'land',
 		width: 190
 	});
-	 
+	
 	var telefon = new Ext.form.TextField({
 		fieldLabel: 'Telefon',
 		name: 'telefon',
 		width: 190
 	});
-	 
+	
 	var mobil = new Ext.form.TextField({
 		fieldLabel: 'Mobil',
 		name: 'mobil',
 		width: 190
 	});
-	 
+	
 	var epost = new Ext.form.TextField({
 		fieldLabel: 'Epost',
 		name: 'epost',
 		width: 190
 	});
-	 
+	
 
 	var skjema = new Ext.form.FormPanel({
 		buttonAlign: 'right',
@@ -191,7 +191,7 @@ Ext.onReady(function() {
 			fields: [
 					er_org,
 					fornavn,
-					etternavn, 
+					etternavn,
 					fødselsdato,
 					personnr,
 					adresse1,
@@ -213,7 +213,7 @@ Ext.onReady(function() {
 				items: [
 					er_org,
 					fornavn,
-					etternavn, 
+					etternavn,
 					fødselsdato,
 					personnr,
 					adresse1,
@@ -254,7 +254,7 @@ Ext.onReady(function() {
 		actioncomplete: function(form, action){
 			if(action.type == 'load'){
 				submit.enable();
-			} 
+			}
 			
 			if(action.type == 'submit'){
 				if(action.response.responseText == '') {
@@ -268,7 +268,7 @@ Ext.onReady(function() {
 							
 		actionfailed: function(form,action){
 			if(action.type == 'load') {
-				if (action.failureType == "connect") { 
+				if (action.failureType == "connect") {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke laste data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {
@@ -291,7 +291,7 @@ Ext.onReady(function() {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke lagre data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {	
-					var result = Ext.decode(action.response.responseText); 
+					var result = Ext.decode(action.response.responseText);
 					if(result && result.msg) {			
 						Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 					}

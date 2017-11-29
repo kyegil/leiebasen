@@ -36,7 +36,7 @@ Ext.onReady(function() {
 		title: 'title',
 		height: 500
 	});
-    
+   
 });
 <?
 }
@@ -45,35 +45,20 @@ Ext.onReady(function() {
 
 
 function design() {
-	$sletteoppdrag = (object)array(
-		'tjeneste'		=> 21,
-		'oppdragstype'	=> 36,
-		'oppdragsnr'	=> $this->netsOpprettOppdragsnummer(),
-		'oppdragskonto'	=> $oppdragskonto,
-		'transaksjoner'	=> array()
-	);
-
-	$giro = $this->hent( 'Giro', 25336 );
-
-	if(
-		!$giro->hentId() // Dersom giroen ikke lenger eksisterer
-	or	($giro->hent('utestående') <= 0)
-	or	$this->netsNesteForsendelse() <= $giro->fboOppdragsfrist()
-	) {
-		$sletteoppdrag->transaksjoner[] = (object)array(
-			'forfallsdato'		=> date_create_from_format( 'Y-m-d', '2017-02-01' ),
-			'beløp'				=> 4239,
-			'kid'				=> '0087300253363',
-			'mobilnr'			=> ''
-		);
-	}
-	
-	print_r( $this->netsNesteForsendelse() );
-
-	print_r( $giro->fboOppdragsfrist() );
-
-	print_r( $sletteoppdrag );
-
+echo $this->mysqli->where([
+	'table.fornavn >=' => 'Espen',
+	'table.etternavn' => 'Askeladd',
+	'or'	=> [
+		'table.fornavn' => null,
+		'table.org' => true,
+		'and'	=> [
+			'table.antall >=' => 3,
+			0	=>	'COUNT(table.column) = settings.count',
+			"CONCAT(table.login, '@', $$) = table.email"	=> ['domain.com'],
+			'personer.fornavn'	=> ['Per', 'Pål', NULL]
+		]
+	]
+]);
 ?>
 <div id="panel"></div>
 <?

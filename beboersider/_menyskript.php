@@ -7,7 +7,7 @@ If(!defined('LEGAL')) die('Ingen adgang - No access!<br />Sjekk at adressen du h
 
 	$sql =	"
 		SELECT *
-		FROM adganger 
+		FROM adganger
 		WHERE adgang = 'beboersider' AND personid = '{$this->bruker['id']}'
 	";
 	$menyadganger = $this->arrayData($sql);

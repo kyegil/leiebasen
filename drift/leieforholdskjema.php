@@ -21,7 +21,20 @@ function skript() {
 	$tp = $this->mysqli->table_prefix;
 	
 	$leieforhold = $this->leieforhold( (int)@$_GET['id'], true );
+	$kontrakter = $leieforhold->hent('kontrakter');
+	$sisteKontrakt = reset($kontrakter);
+	$kontraktdato = $sisteKontrakt->dato;
+	$minKontraktdato = clone $kontraktdato;
 	$tildato = $leieforhold->hent('tildato');
+	$maksKontraktdato = clone $tildato;
+	
+	if( count($kontrakter) == 1) {
+		$maksKontraktdato = $minKontraktdato;
+	}
+	else {
+		$minKontraktdato = clone next($kontrakter)->dato;
+		$minKontraktdato->add(new DateInterval('P1D'));
+	}
 	
 	$delkravtyper = $this->mysqli->arrayData(array(
 		'source'		=> "{$tp}delkravtyper AS delkravtyper\n"
@@ -175,13 +188,30 @@ Ext.onReady(function() {
 
 
 	var tildato = Ext.create('Ext.form.field.Date', {
-		name: 'tildato',
-		fieldLabel: 'Tildato',
-		value: '<?php echo $tildato ? $tildato->format('Y-m-d') : '';?>',
+		fieldLabel: 'Til dato',
 		labelWidth: 100,
+		name: 'tildato',
+		width: 200,
+		msgTarget: 'title',
+
+		value: '<?php echo $tildato ? $tildato->format('Y-m-d') : '';?>',
 		format: 'd.m.Y',
-		submitFormat: 'Y-m-d',
-		width: 200
+		submitFormat: 'Y-m-d'
+	});
+
+
+	var dato = Ext.create('Ext.form.field.Date', {
+		fieldLabel: 'Ikrafttreden leieavtale #<?php echo $sisteKontrakt->kontraktnr;?>',
+		labelWidth: 170,
+		name: 'dato',
+		width: 270,
+		msgTarget: 'title',
+		
+		value: '<?php echo $kontraktdato->format('Y-m-d');?>',
+		minValue: '<?php echo $minKontraktdato->format('Y-m-d');?>',
+		maxValue: '<?php echo $maksKontraktdato->format('Y-m-d');?>',
+		format: 'd.m.Y',
+		submitFormat: 'Y-m-d'
 	});
 
 
@@ -194,6 +224,7 @@ Ext.onReady(function() {
 		listConfig: {
 			width: 300
 		},
+		msgTarget: 'title',
 		
 		store: tidsperiode,
 		queryMode: 'local',
@@ -213,36 +244,40 @@ Ext.onReady(function() {
 
 	<?foreach($delkravtyper as $delkrav):?>
 	var delkrav<?php echo $delkrav->id?> = Ext.create('Ext.form.field.Number', {
-		allowDecimals: <?php echo $delkrav->relativ ? "true" : "false";?>,
-		allowNegative: false,
-		allowBlank: false,
-		readOnly: <?php echo $delkrav->valgfritt ? "false" : "true";?>,
-		decimalPrecision: 5,
-		decimalSeparator: ',',
-		hideTrigger: true,
 		fieldLabel: '<?php echo addslashes($delkrav->navn);?><br />(<?php echo $delkrav->valgfritt ? "Oppgis" : "Låst";?> i <?php echo $delkrav->relativ ? "prosent" : "kr per år";?>)',
 		labelWidth: 120,
 		name: 'delkrav<?php echo $delkrav->id?>',
+		width: 180,
+		msgTarget: 'title',
+
 		value: '<?php echo $delkrav->relativ ? bcmul($delkrav->sats, 100, 1) : $delkrav->sats?>',
-		width: 180
+		allowDecimals: <?php echo $delkrav->relativ ? "true" : "false";?>,
+		allowNegative: false,
+		allowBlank: true,
+		readOnly: <?php echo $delkrav->valgfritt ? "false" : "true";?>,
+		decimalPrecision: 5,
+		decimalSeparator: ',',
+		hideTrigger: true
 	});
 	<?endforeach;?>
 	
 	
 	<?foreach($selvstendigeTillegg as $delkrav):?>
 	var delkrav<?php echo $delkrav->id?> = Ext.create('Ext.form.field.Number', {
-		allowDecimals: <?php echo $delkrav->relativ ? "true" : "false";?>,
-		allowNegative: false,
-		allowBlank: false,
-		readOnly: <?php echo $delkrav->valgfritt ? "false" : "true";?>,
-		decimalPrecision: 1,
-		decimalSeparator: ',',
-		hideTrigger: true,
 		fieldLabel: '<?php echo addslashes($delkrav->navn);?><br />(<?php echo $delkrav->valgfritt ? "Oppgis" : "Låst";?> i <?php echo $delkrav->relativ ? "prosent" : "kr per år";?>)',
 		labelWidth: 120,
 		name: 'delkrav<?php echo $delkrav->id?>',
+		width: 180,
+		msgTarget: 'title',
+		
 		value: '<?php echo $delkrav->relativ ? $delkrav->sats * 100 : $delkrav->sats?>',
-		width: 180
+		allowDecimals: <?php echo $delkrav->relativ ? "true" : "false";?>,
+		allowNegative: false,
+		allowBlank: true,
+		readOnly: <?php echo $delkrav->valgfritt ? "false" : "true";?>,
+		decimalPrecision: 1,
+		decimalSeparator: ',',
+		hideTrigger: true
 	});
 	<?endforeach;?>
 	
@@ -270,6 +305,7 @@ Ext.onReady(function() {
 			else return "Ugyldig verdi.";
 		},
 		value: <?php echo $leieforhold->hent('ant_terminer'); ?>,
+		msgTarget: 'title',
 		width: 200,
 		
 		listeners: {
@@ -289,6 +325,7 @@ Ext.onReady(function() {
 		allowNegative: false,
 		allowBlank: false,
 		decimalSeparator: ',',
+		msgTarget: 'title',
 		width: 200,
 		
 		value: <?php echo $leieforhold->hent('leiebeløp') * $leieforhold->hent('ant_terminer');?>,
@@ -372,6 +409,14 @@ Ext.onReady(function() {
 								padding: '0 5',
 								items: [
 									oppsigelsestid
+								]
+							},
+							{
+								xtype: 'container',
+								flex: 1,
+								padding: '0 5',
+								items: [
+									dato
 								]
 							}
 						]
@@ -509,7 +554,7 @@ Ext.onReady(function() {
 
 		actionfailed: function(form,action){
 			if(action.type == 'submit') {
-				var result = Ext.decode(action.response.responseText); 
+				var result = Ext.decode(action.response.responseText);
 				if(result && result.msg) {			
 					Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg, function() {
 						window.location = '<?php echo $this->returi->get();?>';
@@ -707,9 +752,11 @@ function taimotSkjema() {
 	$resultat->success = $leieforhold->sett('tildato', $tildato);
 	$resultat->success &= $leieforhold->sett('oppsigelsestid', $oppsigelsestid);
 	
+	// Slett gjeldende delkravtyper og tillegg før de opprettes på nytt
 	$resultat->success &= $leieforhold->sett('delkravtyper', null);
 	$resultat->success &= $leieforhold->sett('tillegg', null);
-	
+
+	// Opprett delkravtyper	
 	foreach($delkravtyper as $delkravtype) {
 		$leieforhold->leggTilDelkravtype(
 			$delkravtype->id,
@@ -719,6 +766,7 @@ function taimotSkjema() {
 		);
 	}
 		
+	// Opprett tillegg
 	foreach($selvstendigeTillegg as $delkravtype) {
 		$leieforhold->leggTilDelkravtype(
 			$delkravtype->id,
@@ -743,7 +791,7 @@ function taimotSkjema() {
 		foreach($leie as $krav) {
 			while(
 				$grad = $leieobjekt->hentLeiekrav($krav->hent('fom'), $krav->hent('tom') )->grad > 1.0001
-				&& 
+				&&
 				$oppsigelsestid = $leieobjekt->hentLeiekrav($krav->hent('fom'), $krav->hent('tom') )->oppsigelsestid
 			) {
 				$kravForSletting = reset( $oppsigelsestid );

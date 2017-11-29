@@ -16,11 +16,11 @@ $autoriserer = new $leiebase->autoriserer;
 
 if (isset($_GET['oppdrag']) && $_GET['oppdrag'] == "avslutt") {
 	if( $autoriserer->elsalutu() ) {
-		header("Location: http://svartlamon.org");
+		header("Location: ");
 	}
 }
 
 else {
-	header("Location: http://boligstiftelsen.svartlamon.org/sentral/");
+	header("Location: ");
 }
 ?>

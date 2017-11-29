@@ -129,7 +129,7 @@ Ext.onReady(function() {
 		dataIndex: 'fordelt',
 		header: 'Låst',
 		id: 'fordelt',
-		renderer: Ext.util.Format.hake, 
+		renderer: Ext.util.Format.hake,
 		sortable: true,
 		width: 40
 	};
@@ -153,7 +153,7 @@ Ext.onReady(function() {
 			else {
 				return null;
 			}
-		}, 
+		},
 		sortable: true,
 		width: 90
 	};
@@ -161,7 +161,7 @@ Ext.onReady(function() {
 	var fradato = {
 		dataIndex: 'fradato',
 		header: 'Fra dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 80
 	};
@@ -169,7 +169,7 @@ Ext.onReady(function() {
 	var tildato = {
 		dataIndex: 'tildato',
 		header: 'Til dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 80
 	};

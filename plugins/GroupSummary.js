@@ -2,7 +2,7 @@
  * Ext JS Library 2.2.1
  * Copyright(c) 2006-2009, Ext JS, LLC.
  * licensing@extjs.com
- * 
+ *
  * http://extjs.com/license
  */
 
@@ -136,7 +136,7 @@ Ext.extend(Ext.grid.GroupSummary, Ext.util.Observable, {
         }
     },
 
-    // Note: requires that all (or the first) record in the 
+    // Note: requires that all (or the first) record in the
     // group share the same group value. Returns false if the group
     // could not be found.
     refreshSummary : function(groupValue){

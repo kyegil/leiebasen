@@ -207,7 +207,7 @@ Ext.onReady(function() {
 		actioncomplete: function(form, action){
 			if(action.type == 'load'){
 				lagreknapp.enable();
-			} 
+			}
 			
 			if(action.type == 'submit'){
 				if(action.response.responseText == '') {
@@ -221,7 +221,7 @@ Ext.onReady(function() {
 							
 		actionfailed: function(form,action){
 			if(action.type == 'load') {
-				if (action.failureType == "connect") { 
+				if (action.failureType == "connect") {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke laste data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {
@@ -244,7 +244,7 @@ Ext.onReady(function() {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke lagre data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {	
-					var result = Ext.decode(action.response.responseText); 
+					var result = Ext.decode(action.response.responseText);
 					if(result && result.msg) {			
 						Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 					}

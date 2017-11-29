@@ -463,7 +463,7 @@ function design() {
 function hentData($data = "") {
 	switch ($data) {
 		case "navneliste":
-			if($_POST[query]) 
+			if($_POST[query])
 				$filter = "AND betaler like '{$this->POST['query']}%'";
 			$navneliste = $this->arrayData("SELECT betaler FROM innbetalinger WHERE betaler <> '' $filter GROUP BY betaler");
 			return json_encode($navneliste);

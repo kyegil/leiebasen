@@ -114,7 +114,7 @@ Ext.onReady(function() {
 		uncheckedValue: 0
 	});
 
-    
+   
 	var fornavn<?php echo $a?> = Ext.create('Ext.form.field.ComboBox', {
 		name: 'fornavn<?php echo $a?>',
 		itemId: 'fornavn<?php echo $a?>',

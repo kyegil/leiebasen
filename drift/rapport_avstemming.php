@@ -33,7 +33,7 @@ Ext.onReady(function() {
 		value: '<?=date('Y')-1;?>-12-31',
 		width: 200
 	});
-	 
+	
 	var skjema = new Ext.form.FormPanel({
 		buttonAlign: 'center',
 		frame: true,

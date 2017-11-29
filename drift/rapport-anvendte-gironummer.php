@@ -184,7 +184,7 @@ Ext.onReady(function() {
 	});
 	
 	var pagingtb = Ext.create('Ext.toolbar.Paging',{
-		store: datasett, 
+		store: datasett,
 		dock: 'bottom',
 		displayInfo: true
 	});

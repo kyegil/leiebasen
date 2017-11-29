@@ -876,7 +876,7 @@ public function sett($egenskap, $verdi = null) {
 			$bankfridager = $this->leiebase->bankfridager( $verdi->format('Y') );
 			while(
 				in_array( $verdi->format('m-d'), $bankfridager )
-				or $verdi->format('N') > 5 
+				or $verdi->format('N') > 5
 			) {
 				$verdi->add(new DateInterval('P1D'));
 			}

@@ -84,13 +84,13 @@ Ext.onReady(function() {
 		name: 'aktiv',
 		tabIndex: 1
 	});
-	 
+	
 	var id = Ext.create('Ext.form.field.Display', {
 		hidden: true,
 		fieldLabel: 'ID',
 		name: 'id'
 	});
-	 
+	
 <?if((int)$_GET["id"]):?>
 	var kravtype = Ext.create('Ext.form.field.Display', {
 		fieldLabel: 'Tilhører krav av type',
@@ -115,25 +115,25 @@ Ext.onReady(function() {
 		tabIndex: 2
 	});
 <?endif;?>
-	 
+	
 	var kode = Ext.create('Ext.form.field.Text', {
 		fieldLabel: 'Kode',
 		name: 'kode',
 		tabIndex: 3
 	});
-	 
+	
 	var navn = Ext.create('Ext.form.field.Text', {
 		fieldLabel: 'Navn',
 		name: 'navn',
 		tabIndex: 4
 	});
-	 
+	
 	var beskrivelse = Ext.create('Ext.form.field.TextArea', {
 		fieldLabel: 'Beskrivelse',
 		name: 'beskrivelse',
 		tabIndex: 5
 	});
-	 
+	
 	var valgfritt = Ext.create('Ext.form.field.Checkbox', {
 		boxLabel: 'Leietakerne kan selv velge om de vil betale dette delkravet',
 		fieldLabel: 'Valgfritt',
@@ -142,7 +142,7 @@ Ext.onReady(function() {
 		name: 'valgfritt',
 		tabIndex: 6
 	});
-	 
+	
 	var relativ = Ext.create('Ext.form.field.Checkbox', {
 		boxLabel: 'Delkravbeløpet oppgis i prosenter av hovedbeløpet',
 		fieldLabel: 'Relativt beløp',
@@ -161,7 +161,7 @@ Ext.onReady(function() {
 		name: 'relativ',
 		tabIndex: 7
 	});
-	 
+	
 	var sats = Ext.create('Ext.form.field.Number', {
 		allowBlank: false,
 		allowDecimals: false,
@@ -171,7 +171,7 @@ Ext.onReady(function() {
 		name: 'sats',
 		tabIndex: 8
 	});
-	 
+	
 	var tillegg = Ext.create('Ext.form.field.Checkbox', {
 		boxLabel: 'Ved å klikke her vil ikke beløpet inngå som et element i hovedkravet,<br />men kreves inn separat som et selvstendig tilleggskrav',
 		fieldLabel: 'Selvstendig tillegg',
@@ -180,7 +180,7 @@ Ext.onReady(function() {
 		name: 'selvstendig_tillegg',
 		tabIndex: 9
 	});
-	 
+	
 	var lagreknapp = Ext.create('Ext.Button', {
 		text: 'Lagre endringer',
 		disabled: true,
@@ -237,7 +237,7 @@ Ext.onReady(function() {
  				else {
  					sats.setFieldLabel('Beløp i kroner (per år)');
  				}
-			} 
+			}
 			
 			if(action.type == 'submit'){
 				if(action.response.responseText == '') {
@@ -251,7 +251,7 @@ Ext.onReady(function() {
 							
 		actionfailed: function(form,action) {
 			if(action.type == 'load') {
-				if (action.failureType == "connect") { 
+				if (action.failureType == "connect") {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke laste data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {
@@ -274,7 +274,7 @@ Ext.onReady(function() {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke lagre data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {	
-					var result = Ext.JSON.decode(action.response.responseText); 
+					var result = Ext.JSON.decode(action.response.responseText);
 					if(result && result.msg) {			
 						Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 					}

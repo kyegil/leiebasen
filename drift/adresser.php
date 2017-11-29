@@ -188,7 +188,7 @@ Ext.onReady(function() {
 	var fødselsdato = {
 		dataIndex:	'fødselsdato',
 		text:		'Fødselsdato',
-		renderer:	Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer:	Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable:	true,
 		width:		100
 	};

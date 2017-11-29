@@ -86,7 +86,7 @@ function set($uri = "", $session = "") {
 			FROM `{$this->table}`
 			INNER JOIN
 			(
-				SELECT MIN( id ) AS id 
+				SELECT MIN( id ) AS id
 				FROM `{$this->table}`
 				WHERE uri = '" . $this->mysqli->real_escape_string($uri) . "'
 				AND `session` = '" . $this->mysqli->real_escape_string($session) . "'

@@ -183,7 +183,7 @@ Ext.onReady(function() {
         width: 900,
 		viewConfig: {
 			forceFit: false
-		},        
+		},       
 		autoExpandColumn: 2,
         plugins: expander,
         title: "Innbetalinger <?=date('d.m.Y', strtotime($this->fra)) . " - " . date('d.m.Y', strtotime($this->til));?>"

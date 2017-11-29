@@ -76,9 +76,9 @@ Ext.onReady(function() {
 			$sisteForfall = clone $giro->hent('sisteForfall');
 
 			if( $sisteForfall->add(
-				new DateInterval( 
-					$this->valg['purreintervall'] 
-				) 
+				new DateInterval(
+					$this->valg['purreintervall']
+				)
 			) < date_create() ) {
 				$liste [$leieforhold->hentId()] ['purres'] = true;
 			}
@@ -94,7 +94,7 @@ Ext.onReady(function() {
 		$liste
 			[$leieforhold->hentId()]
 			['leieobjekt'] = $leieforhold->hent('leieobjekt');
-			 
+			
 		$liste
 			[$leieforhold->hentId()]
 			['frosset'] = $leieforhold->hent('frosset');
@@ -300,9 +300,9 @@ var skjema = Ext.create('Ext.form.Panel', {
 					$sisteForfall = clone $sisteForfall;
 
 					$purr = $sisteForfall->add(
-						new DateInterval( 
-							$this->valg['purreintervall'] 
-						) 
+						new DateInterval(
+							$this->valg['purreintervall']
+						)
 					) < date_create()
 					? true
 					: false;
@@ -399,7 +399,7 @@ skjema.on({
 				Ext.MessageBox.alert('Problem:', 'Klarte ikke lagre data. Fikk ikke kontakt med tjeneren.');
 			}
 			else {	
-				var result = Ext.JSON.decode(action.response.responseText); 
+				var result = Ext.JSON.decode(action.response.responseText);
 				if(result && result.msg) {			
 					Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 				}

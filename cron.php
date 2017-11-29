@@ -59,7 +59,7 @@ $leiebase->opprettLeiekrav();
 $post = $leiebase->netsHentForsendelser();
 
 //	Kan brukes for manuell innlesing av fil:
-// $post = array('/home/svartlam/boligstiftelsen_filarkiv/nets/inn/ocr/2017-05/OCR.D020517');
+// $post = array('/home/svartlam/boligstiftelsen_filarkiv/nets/inn/ocr/2016-06/OCR.D270616');
 
 
 // Gå gjennom oppdragene i evt forsendelser og utfør disse:

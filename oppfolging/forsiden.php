@@ -56,7 +56,7 @@ Ext.onReady(function() {
 
 	Ext.define('Notat', {
 		 extend: 'Ext.data.Model',
-		 
+		
 		 // http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.data.Field
 		 fields: [
 			{name: 'notatnr', type: 'float'},
@@ -74,18 +74,18 @@ Ext.onReady(function() {
 			{name: 'registrerer'}
 		]
 	 });
-	 
+	
 	Ext.define('Leieforhold', {
 		 extend: 'Ext.data.Model',
-		 
+		
 		 // http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.data.Field
 		 fields: [
 		 	{name: 'leieforhold', type: 'float'},
 		 	{name: 'beskrivelse'}
 		 ]
 	 });
-	 
-	 
+	
+	
 	visBrev = function(nr){
 		linje = notater.getAt(nr);
 		Ext.MessageBox.show({

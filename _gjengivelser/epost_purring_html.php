@@ -74,5 +74,5 @@ Følgende har forfalt, men er ikke registrert betalt:</p>
  	<?endif;?>
 	 den <?php echo $sisteInnbetaling->dato->format('d.m.Y');?></p>
 <?endif;?>
- 
+
 <div><?php echo $eposttekst;?></div>

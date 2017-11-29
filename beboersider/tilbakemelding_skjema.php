@@ -75,7 +75,7 @@ Ext.onReady(function() {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke sende. Fikk ikke kontakt med tjeneren.');
 				}
 				else {	
-					var result = Ext.decode(action.response.responseText); 
+					var result = Ext.decode(action.response.responseText);
 					if(result && result.msg) {			
 						Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', action.result.msg);
 					}

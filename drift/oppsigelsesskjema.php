@@ -200,7 +200,7 @@ Ext.onReady(function() {
 		},
 		actionfailed: function(form,action){
 			if(action.type == 'submit') {
-				var result = Ext.decode(action.response.responseText); 
+				var result = Ext.decode(action.response.responseText);
 				if(result && result.msg) {			
 					Ext.MessageBox.alert('Registreringen feilet:', result.msg);
 				}

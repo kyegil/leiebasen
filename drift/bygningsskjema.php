@@ -84,21 +84,21 @@ Ext.onReady(function() {
 		name: 'id',
 		labelWidth: 120
 	});
-	 
+	
 	var kode = Ext.create('Ext.form.field.Text', {
 		fieldLabel: 'Kode',
 		labelWidth: 120,
 		name: 'kode',
 		tabIndex: 1
 	});
-	 
+	
 	var navn = Ext.create('Ext.form.field.Text', {
 		fieldLabel: 'Navn / Beskrivelse',
 		labelWidth: 120,
 		name: 'navn',
 		tabIndex: 2
 	});
-	 
+	
 	var bildefelt = Ext.create('Ext.form.field.File', {
 		fieldLabel: 'Last opp bilde',
 		name: 'bildefelt',
@@ -109,7 +109,7 @@ Ext.onReady(function() {
 	var bildeverdi = Ext.create('Ext.form.field.Hidden', {
 		name: 'bilde'
 	});
-	 
+	
 	var bildevisning = Ext.create('Ext.Img', {
 		height: 350,
 		maxWidth: 350
@@ -172,7 +172,7 @@ Ext.onReady(function() {
 			if(action.type == 'load'){
 				bildevisning.setSrc(bildeverdi.getValue());
 				lagreknapp.enable();
-			} 
+			}
 			
 			if(action.type == 'submit'){
 				if(action.response.responseText == '') {
@@ -186,7 +186,7 @@ Ext.onReady(function() {
 							
 		actionfailed: function(form,action) {
 			if(action.type == 'load') {
-				if (action.failureType == "connect") { 
+				if (action.failureType == "connect") {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke laste data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {
@@ -209,7 +209,7 @@ Ext.onReady(function() {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke lagre data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {	
-					var result = Ext.JSON.decode(action.response.responseText); 
+					var result = Ext.JSON.decode(action.response.responseText);
 					if(result && result.msg) {			
 						Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 					}
@@ -313,7 +313,7 @@ function taimotSkjema($skjema) {
 						'success' => false,
 						'msg'	=> "Det opplastede bildet må være av typen JPG/JPEG, PNG eller GIF."
 					)));
-				} 
+				}
 	
 				if ($bilde["size"] > 1000000) {
 					die(json_encode((object) array(

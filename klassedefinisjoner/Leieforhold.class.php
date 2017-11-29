@@ -2165,7 +2165,7 @@ men bare dersom leia ikke er beregna fram til leieavtalen er oppsagt.
 //	$fradato (DateTime, normalt null):	Dersom $fradato er angitt vil eksisterende krav slettes fra denne datoen før nye legges til
 //	$løsneInnbetalinger (boolsk, normalt usann):	Dersom denne er sann vil alle innbetalinger løsnes før kravene slettes, med mindre det allerede er skrevet ut giro
 //	$ukedag (heltall):	Ukedag (1-7) terminene skal starte på. Angitt i hht ISO-8601. 1=mandag, 7=søndag
-//	$kalenderdag (heltall):	Dag i måneden (1-31) terminene skal starte på. Alt over 27 regnes som siste dagen i måneden 
+//	$kalenderdag (heltall):	Dag i måneden (1-31) terminene skal starte på. Alt over 27 regnes som siste dagen i måneden
 //	$fastDato (streng):		Dato i formatet 'm-d' som starter en ny termin
 //	--------------------------------------
 //	retur: liste over alle nyopprettede leiekrav
@@ -2175,7 +2175,7 @@ public function opprettLeiekrav(
 	$løsneInnbetalinger = false,
 	$ukedag = 0,
 	$kalenderdag = 0,
-	$fastDato = false 
+	$fastDato = false
 ) {
 	$tp = $this->mysqli->table_prefix;
 	$resultat		= array();
@@ -2343,7 +2343,7 @@ public function opprettLeiekrav(
 		
 			$tom = new DateTime($fom->format('Y-m-01'));	// $tom flyttes til første dag i måneden
 			$tom->add($terminlengde);						// Intervallet legges til
-			$tom = new DateTime($tom->format('Y-m-t'));		// $tom flyttes til 
+			$tom = new DateTime($tom->format('Y-m-t'));		// $tom flyttes til
 			$tom->sub(new DateInterval("P1D"));				// nest siste dag i måneden
 		}
 		else {
@@ -2362,7 +2362,7 @@ public function opprettLeiekrav(
 	
 
 		/*
-		$sisteFørBrudd er siste datoen før et ny termin skal brytes gjennom som 
+		$sisteFørBrudd er siste datoen før et ny termin skal brytes gjennom som
 		følge av angitt fast ukedag eller dato
 		*/
 		$sisteFørBrudd = clone $tom;

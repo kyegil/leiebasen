@@ -58,7 +58,7 @@ Ext.onReady(function() {
 		root: 'data'
     });
     datasett.load();
-    
+   
 	var leil = {
 		align: 'right',
 		dataIndex: 'leil',

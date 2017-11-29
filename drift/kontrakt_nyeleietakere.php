@@ -66,7 +66,7 @@ Ext.onReady(function() {
 		hideLabel: false,
 		name: 'er_org'
 	});
-    
+   
 	var fornavnfelt = new Ext.form.ComboBox({		disabled: false,
 		displayField: 'fornavn',
 		editable: true,
@@ -78,7 +78,7 @@ Ext.onReady(function() {
 		store: fornavnliste,
 		typeAhead: true
 	});
-    
+   
 	var etternavnfelt = new Ext.form.ComboBox({		allowBlank: false,
 		displayField: 'etternavn',
 		editable: true,
@@ -516,7 +516,7 @@ Ext.onReady(function() {
 
 		actionfailed: function(form,action){
 			if(action.type == 'submit') {
-				var result = Ext.decode(action.response.responseText); 
+				var result = Ext.decode(action.response.responseText);
 				if(result && result.msg) {			
 					Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg, function(){
 						window.location = '<?=$this->returi->get();?>';

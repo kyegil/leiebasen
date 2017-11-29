@@ -225,7 +225,7 @@ Ext.onReady(function() {
 	});
 
     hovedpanel.render('panel');
-    
+   
 });
 <?
 }
@@ -255,12 +255,14 @@ function manipuler($data){
 
 
 function hentData($data = "") {
+	$tp = $this->mysqli->table_prefix;
+
 	switch ($data) {
 	
 	case "internmeldinger": {
 
 		$resultat = $this->mysqli->arrayData(array(
-			'source'		=> "internmeldinger",
+			'source'		=> "{$tp}internmeldinger AS internmeldinger",
 			'where'			=> array('drift' => true),
 			'orderfields'	=> "id DESC"
 		));
@@ -344,7 +346,7 @@ function hentData($data = "") {
 				'beløp'			=> "SUM(beløp)",
 				'måned'			=> "DATE_FORMAT(dato, '%Y-%m-01')"
 			),
-			'source'		=> "innbetalinger",
+			'source'		=> "{$tp}innbetalinger AS innbetalinger",
 			'where'			=> array(
 				'konto <>'		=> '0'
 			),
@@ -368,7 +370,7 @@ function hentData($data = "") {
 	<?			
 
 		$resultat = $this->mysqli->arrayData(array(
-			'source'	=> "OCRdetaljer",
+			'source'	=> "{$tp}OCRdetaljer AS OCRdetaljer",
 			'fields'	=> array(
 				'oppgjørsdato'	=> "MAX(oppgjørsdato)"
 			)
@@ -380,9 +382,8 @@ function hentData($data = "") {
 		endif;
 		
 		$resultat = $this->mysqli->arrayData(array(
-			'source'		=> "innbetalinger",
+			'source'		=> "{$tp}innbetalinger AS innbetalinger",
 			'fields'		=> array("registrerer", "registrert"),
-			'where'			=> "konto <> '0' AND !OCRtransaksjon",
 			'where'			=> array(
 				'konto <>'			=> '0',
 				'OCRtransaksjon'	=> false
@@ -401,7 +402,7 @@ function hentData($data = "") {
 	<?
 		
 		$resultat = $this->mysqli->arrayData(array(
-			'source'		=> "giroer",
+			'source'		=> "{$tp}giroer AS giroer",
 			'fields'		=> array(
 				'utskriftsdato'	=> "MAX(utskriftsdato)"
 			)
@@ -413,7 +414,7 @@ function hentData($data = "") {
 		endif;
 		
 		$resultat = $this->mysqli->arrayData(array(
-			'source'		=> "purringer",
+			'source'		=> "{$tp}purringer AS purringer",
 			'fields'		=> array(
 				'purredato'	=> "MAX(purredato)"
 			)
@@ -425,7 +426,7 @@ function hentData($data = "") {
 		endif;
 		
 		$resultat = $this->mysqli->arrayData(array(
-			'source'		=> "fs_originalfakturaer",
+			'source'		=> "{$tp}fs_originalfakturaer AS fs_originalfakturaer",
 			'fields'		=> array("termin", "fradato", "tildato", "fordelt"),
 			'orderfields'	=> "tildato DESC, fordelt DESC",
 			'limit'			=> 1
@@ -443,10 +444,10 @@ function hentData($data = "") {
 		endif;
 		
 		$resultat = $this->mysqli->arrayData(array(
-			'source'		=> "skader INNER JOIN bygninger ON skader.bygning=bygninger.id",
+			'source'		=> "{$tp}skader AS skader INNER JOIN {$tp}bygninger AS bygninger ON skader.bygning=bygninger.id",
 			'fields'		=> array("skader.skade", "skader.registrert", "bygninger.navn"),
 			'where'			=> array(
-				'utført IS'	=> null
+				'utført'	=> null
 			),
 			'orderfields'	=> "skader.registrert DESC",
 			'limit'			=> 1
@@ -462,49 +463,72 @@ function hentData($data = "") {
 		
 
 	case "statistikk2":
-//			echo "<b>Oppgjør:</b><br />";
-		// oppgjør består av feltene kravid, utestående, oppgjort, forfall, oppgjørsdato, oppfyllelse (=oppgjør antall dager før forfall)
 		$oppgjør = "(SELECT id AS kravid, utestående, !utestående AS oppgjort, IFNULL(krav.forfall, krav.kravdato) AS forfall, IF(!utestående, MAX(innbetalinger.dato), NOW()) AS oppgjørsdato, DATEDIFF(IFNULL(krav.forfall, krav.kravdato), IF(!utestående, MAX(innbetalinger.dato), NOW())) AS oppfyllelse\n"
-			.	"FROM krav LEFT JOIN innbetalinger ON krav.id = innbetalinger.krav\n"
+			.	"FROM {$tp}krav AS krav LEFT JOIN {$tp}innbetalinger AS innbetalinger ON krav.id = innbetalinger.krav\n"
 			.	"GROUP BY krav.id)\n"
 			.	"AS oppgjør";
+		$resultat = $this->mysqli->arrayData(array(
+			'source'	=> "{$tp}krav AS krav INNER JOIN $oppgjør ON krav.id = oppgjør.kravid\n",
+			'fields'	=> array(
+				'totalt'	=> "COUNT(oppgjør.kravid)",
+				'oppgjort'	=> "SUM(oppgjør.oppgjort)"
+			),
+			'where'			=> array(
+				'krav.type'			=> "Husleie",
+				'oppgjør.forfall <= NOW()',
+				'oppgjør.forfall > DATE_SUB(NOW(), INTERVAL 1 MONTH)'
+			)
+		))->data[0];
 
-		$sql =	"SELECT COUNT(oppgjør.kravid) AS totalt, SUM(oppgjør.oppgjort) AS oppgjort\n"
-			.	"FROM krav INNER JOIN $oppgjør ON krav.id = oppgjør.kravid\n"
-			.	"WHERE krav.type = 'Husleie' AND oppgjør.forfall <=NOW() AND oppgjør.forfall > DATE_SUB(NOW(), INTERVAL 1 MONTH)";
-		$resultat = $this->arrayData($sql);
+		echo "<span title=\"{$resultat->oppgjort} av totalt {$resultat->totalt}\">{$this->prosent($resultat->oppgjort/($ant_leier = $resultat->totalt))}</span> av leier forfalt siste måned er betalt.<br />";
 
-		echo "<span title=\"{$resultat['data'][0]['oppgjort']} av totalt {$resultat['data'][0]['totalt']}\">" . number_format($resultat['data'][0]['oppgjort']/($ant_leier = $resultat['data'][0]['totalt'])*100, 1, ",", " ") . "%</span> av leier forfalt siste måned er betalt.<br />";
 		
-		$sql =	"SELECT COUNT(oppgjør.kravid) AS oppgjort\n"
-			.	"FROM krav INNER JOIN $oppgjør ON krav.id = oppgjør.kravid\n"
-			.	"WHERE krav.type = 'Husleie' AND oppgjør.forfall <=NOW() AND oppgjør.forfall > DATE_SUB(NOW(), INTERVAL 1 MONTH) AND oppgjørsdato <= oppgjør.forfall";
-		$resultat = $this->arrayData($sql);
+		$resultat = $this->mysqli->arrayData(array(
+			'source'	=> "{$tp}krav AS krav INNER JOIN $oppgjør ON krav.id = oppgjør.kravid",
+			'fields'	=> array(
+				'oppgjort'	=> "COUNT(oppgjør.kravid)"
+			),
+			'where'		=> array(
+				'krav.type'		=> "Husleie",
+				'oppgjør.forfall <=NOW()',
+				'oppgjør.forfall > DATE_SUB(NOW(), INTERVAL 1 MONTH)',
+				'oppgjørsdato <= oppgjør.forfall'
+			)
+		))->data[0];
 
-		echo "<span title=\"{$resultat['data'][0]['oppgjort']} av totalt $ant_leier\">" . number_format($resultat['data'][0]['oppgjort']/$ant_leier*100, 1, ",", " ") . "%</span> ble betalt innen forfall.<br />";
+		echo "<span title=\"{$resultat->oppgjort} av totalt $ant_leier\">{$this->prosent($resultat->oppgjort/$ant_leier)}</span> ble betalt innen forfall.<br />";
 		
 		echo "<br />";
 
-		$sql =	"SELECT SUM(utestående) AS utestående, SUM(beløp) AS totalt\n"
-			.	"FROM krav\n"
-			.	"WHERE IFNULL(krav.forfall, krav.kravdato) <=NOW() AND IFNULL(krav.forfall, krav.kravdato) > DATE_SUB(NOW(), INTERVAL 1 YEAR)";
-		$resultat = $this->arrayData($sql);
 
-		echo "Utestående siste 12 mnd: <span title=\"Av totalt kr. " . number_format($resultat['data'][0]['totalt'], 2, ",", " ") . " (Dvs. " . number_format($resultat['data'][0]['utestående']/$resultat['data'][0]['totalt']*100, 1, ",", " ") . "%)\">kr. " . number_format($resultat['data'][0]['utestående'], 2, ",", " ") . "</span><br />";
+		$resultat = $this->mysqli->arrayData(array(
+			'source'	=> "{$tp}krav AS krav",
+			'fields'	=> array(
+				'utestående'	=> "SUM(utestående)",
+				'totalt'		=> "SUM(beløp)"
+			),
+			'where'		=> array(
+				'IFNULL(krav.forfall, krav.kravdato) <=NOW()',
+				'IFNULL(krav.forfall, krav.kravdato) > DATE_SUB(NOW(), INTERVAL 1 YEAR)'
+			)
+		))->data[0];
+
+		echo "Utestående siste 12 mnd: <span title=\"Av totalt {$this->kr($resultat->totalt, false)} (Dvs. {$this->prosent($resultat->utestående/$resultat->totalt, 1, false)})\">{$this->kr($resultat->utestående)}</span><br />";
+
 		
-		$sql =	"SELECT SUM(utestående) AS utestående, SUM(beløp) AS totalt\n"
-			.	"FROM krav\n"
-			.	"WHERE IFNULL(krav.forfall, krav.kravdato) <= DATE_SUB(NOW(), INTERVAL 2 MONTH) AND IFNULL(krav.forfall, krav.kravdato) > DATE_SUB(NOW(), INTERVAL 1 YEAR)";
-		$resultat = $this->arrayData($sql);
+		$resultat = $this->mysqli->arrayData(array(
+			'source'	=> "{$tp}krav AS krav",
+			'fields'	=> array(
+				'utestående'	=> "SUM(utestående)",
+				'totalt'		=> "SUM(beløp)"
+			),
+			'where'	=> array(
+				'IFNULL(krav.forfall, krav.kravdato) <= DATE_SUB(NOW(), INTERVAL 2 MONTH)',
+				'IFNULL(krav.forfall, krav.kravdato) > DATE_SUB(NOW(), INTERVAL 1 YEAR)'
+			)
+		))->data[0];
 
-		echo "- Minus siste 2 måneder: <span title=\"Av totalt kr. " . number_format($resultat['data'][0]['totalt'], 2, ",", " ") . " (Dvs. " . number_format($resultat['data'][0]['utestående']/$resultat['data'][0]['totalt']*100, 1, ",", " ") . "%)\">kr. " . number_format($resultat['data'][0]['utestående'], 2, ",", " ") . "</span><br />";
-		
-		$sql =	"SELECT AVG(oppfyllelse) AS oppfyllelse\n"
-			.	"FROM $oppgjør\n"
-			.	"WHERE oppgjørsdato <= NOW() AND oppgjørsdato > DATE_SUB(NOW(), INTERVAL 3 MONTH)";
-		$resultat = $this->arrayData($sql);
-
-//			echo "Oppgjør siste måned skjedde gjennomsnittlig " . number_format($resultat['data'][0]['oppfyllelse'], 0, ",", " ") . " dager " . "før forfall<br />";
+		echo "- Minus siste 2 måneder: <span title=\"Av totalt {$this->kr($resultat->totalt, false)} (Dvs. {$this->prosent($resultat->utestående/$resultat->totalt, 1, false)})\">{$this->kr($resultat->utestående)}</span><br />";
 		
 		break;
 	}

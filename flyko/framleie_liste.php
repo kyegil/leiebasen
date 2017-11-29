@@ -87,7 +87,7 @@ Ext.onReady(function() {
 	var fradato = {
 		dataIndex: 'fradato',
 		header: 'Fra dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 70
 	};
@@ -95,7 +95,7 @@ Ext.onReady(function() {
 	var tildato = {
 		dataIndex: 'tildato',
 		header: 'Til dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 70
 	};

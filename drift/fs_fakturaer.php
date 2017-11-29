@@ -96,7 +96,7 @@ Ext.onReady(function() {
 				}
 				originalverdi = denneLinje.data[feltnavn];
 				denneLinje.set(feltnavn, verdi);
- 
+
 				if(kolonne < 8) {
 					cellEditing.startEditByPosition({
 						row: rad,
@@ -109,7 +109,7 @@ Ext.onReady(function() {
 						column: 2
 					});
 				}
- 
+
 //				objekt = new Array();
 				var objekt = {
 					value:			verdi,
@@ -240,7 +240,7 @@ Ext.onReady(function() {
 		dataIndex: 'varslet',
 		text: 'Varslet',
 		id: 'varslet',
-//		renderer: Ext.util.Format.hake, 
+//		renderer: Ext.util.Format.hake,
 		renderer: function(value, metaData, record, rowIndex, colIndex, store) {
 			if(value) {
 				return '<span title="' + Ext.util.Format.date(value, 'd.m.Y') + '">' + Ext.util.Format.hake(value) + '</span>';
@@ -306,7 +306,7 @@ Ext.onReady(function() {
 			else {
 				return null;
 			}
-		}, 
+		},
 		sortable: true,
 		width: 70
 	};
@@ -385,7 +385,7 @@ Ext.onReady(function() {
 			submitFormat: 'Y-m-d'
 		}),
 		text: 'Fra dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 80
 	};
@@ -408,7 +408,7 @@ Ext.onReady(function() {
 			submitFormat: 'Y-m-d'
 		}),
 		text: 'Til dato',
-		renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+		renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 		sortable: true,
 		width: 80
 	};
@@ -858,7 +858,7 @@ Ext.onReady(function() {
 			handler: function(btn, pressed) {
 				datasett.add({}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {});
 			}
-		}, 
+		},
 		{
 			scale: 'large',
 			text: 'Lag forslag til fordeling<br />av nye fakturaer',
@@ -866,7 +866,7 @@ Ext.onReady(function() {
 			handler: function(button, event) {
 				fordelFaktura();
 			}
-		}, 
+		},
 		{
 			scale: 'large',
 			text: 'Send epost med nye<br />forslag til deltakerne',
@@ -874,7 +874,7 @@ Ext.onReady(function() {
 			handler: function(button, event) {
 				strømfordelingsvindu.show();
 			}
-		}, 
+		},
 		{
 			scale: 'large',
 			text: 'Skriv rapport over<br />nye fordelinger',
@@ -882,7 +882,7 @@ Ext.onReady(function() {
 			handler: function() {
 				window.open("index.php?oppslag=fs_fakturaer&oppdrag=manipuler&data=skrivfordeling");
 			}
-		}, 
+		},
 		{
 			scale: 'large',
 			text: 'Godta alle forslag og<br />krev inn andelene',
@@ -978,8 +978,7 @@ function hentData($data = "") {
 			'source'	=> "fs_fellesstrømanlegg",
 			'fields'	=> "anleggsnummer, CONCAT(anleggsnummer, ' (målernr: ', målernummer, '): ', formål) AS anlegg",
 			'where'		=>	isset( $_GET['query'] )
-							? "anleggsnummer LIKE '%{$this->GET['query']}%'
-							   OR målernummer  LIKE '%{$this->GET['query']}%'"
+							? "CONCAT(anleggsnummer, ' (målernr: ', målernummer, '): ', formål) LIKE '%{$this->GET['query']}%'"
 							: null
 		)) );
 		break;

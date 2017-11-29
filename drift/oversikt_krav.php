@@ -181,7 +181,7 @@ Ext.onReady(function() {
 		store: datasett,
 		columns: [
 			id,
-			dato, 
+			dato,
 			kontraktnr,
 			type,
 			termin,

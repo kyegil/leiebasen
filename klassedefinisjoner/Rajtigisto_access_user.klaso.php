@@ -6,7 +6,7 @@ de Kay-Egil Hauan
 
 require_once("Rajtigisto.klaso.php");
 
-require_once('access_user/access_user_class.php'); 
+require_once('access_user/access_user_class.php');
 
 class rajtigisto_access_user extends rajtigisto {
 
@@ -173,7 +173,7 @@ public function revokuRolon() {
 
 
 public function sanguNomo($uzanto, $nomo) {
-	mysql_query(sprintf("UPDATE %s SET real_name = %s WHERE id = %d", 
+	mysql_query(sprintf("UPDATE %s SET real_name = %s WHERE id = %d",
 		$this->access_user->table_name,
 		$this->access_user->ins_string($nomo),
 		(int)$uzanto));
@@ -185,7 +185,7 @@ public function sanguPasvorto($uzanto, $pasvorto) {
 	if(!$this->cuLaPasvortoEstasValida($pasvorto)) {
 		return false;
 	}
-	mysql_query(sprintf("UPDATE %s SET pw = %s WHERE id = %d", 
+	mysql_query(sprintf("UPDATE %s SET pw = %s WHERE id = %d",
 		$this->access_user->table_name,
 		$this->access_user->ins_string(md5($pasvorto)),
 		(int)$uzanto));
@@ -194,7 +194,7 @@ public function sanguPasvorto($uzanto, $pasvorto) {
 
 
 public function sanguRetpostadreso($uzanto, $retpoŝtadreso) {
-	mysql_query(sprintf("UPDATE %s SET email = %s WHERE id = %d", 
+	mysql_query(sprintf("UPDATE %s SET email = %s WHERE id = %d",
 		$this->access_user->table_name,
 		$this->access_user->ins_string($retpoŝtadreso),
 		(int)$uzanto));
@@ -206,7 +206,7 @@ public function sanguUzantoNomo($uzanto, $uzantoNomo) {
 	if(!$this->cuLaUzantonomoEstasDisponebla($uzantoNomo, $uzanto)) {
 		return false;
 	}
-	mysql_query(sprintf("UPDATE %s SET login = %s WHERE id = %d", 
+	mysql_query(sprintf("UPDATE %s SET login = %s WHERE id = %d",
 		$this->access_user->table_name,
 		$this->access_user->ins_string($uzantoNomo),
 		(int)$uzanto));

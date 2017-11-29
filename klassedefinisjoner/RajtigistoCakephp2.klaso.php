@@ -21,9 +21,9 @@ public $konekto = false;
 public function __construct() {
 	$db = new DATABASE_CONFIG;
 	$this->konekto = new Mysqli(
-		$db->default['host'], 
-		$db->default['login'], 
-		$db->default['password'], 
+		$db->default['host'],
+		$db->default['login'],
+		$db->default['password'],
 		$db->default['database']
 	);
 	

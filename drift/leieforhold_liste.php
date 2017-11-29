@@ -189,7 +189,7 @@ Ext.onReady(function() {
 		],
 		viewConfig: {
 			forceFit: false
-		},        
+		},       
 		autoExpandColumn: 2,
         plugins: expander,
 		stripeRows: true,

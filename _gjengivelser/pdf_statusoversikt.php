@@ -77,9 +77,9 @@ if($rammer) {
 // 	15,		// y-posisjon i mm for øverste venstre hjørne
 // 	80,		// bredde i mm eller 0 for automatisk
 // 	0,		// høyde i mm eller 0 for automatisk
-// 	'png'	// 
+// 	'png'	//
 // );
-// 
+//
 //		Posisjon 92mm fra venstre 15mm ned
 $pdf->setXY(92, 15);
 $pdf->SetFont('DIN Black','',13);
@@ -184,7 +184,7 @@ $pdf->setY($Y+4);
 $pdf->Cell(
 	100,		// bredde i mm (normalt 0)
 	4,			// høyde i mm (normalt 0)
-	utf8_decode($leieforholdBeskrivelse), 
+	utf8_decode($leieforholdBeskrivelse),
 	$rammer,	// innramming? Boolsk eller 'LRTB' (normalt false)
 	0,			// Neste markørposisjon: 0 = til høyre, 1 = til begynnelsen av neste linje, 2 = ned (normalt 0)
 	'L',		// Justering: 'L', 'C' eller 'R' (normalt 'L')
@@ -316,7 +316,7 @@ $Y = 65;
 if ( $efaktura ) {
 
 	//		Posisjon 145mm fra venstre 135mm ned
-	//		Argumenter: 
+	//		Argumenter:
 	//		string file [, float x [, float y [, float w [, float h [, string type [, mixed link]]]]]]
 	$pdf->Image(
 		"../bilder/eFaktura_print_4000_943.png",
@@ -324,7 +324,7 @@ if ( $efaktura ) {
 		$Y,		// y-posisjon i mm for øverste venstre hjørne
 		23,		// bredde i mm eller 0 for automatisk
 		0,		// høyde i mm eller 0 for automatisk
-		'png'	// 
+		'png'	//
 	);
 	
 	//		Tekst om efaktura
@@ -356,14 +356,14 @@ if ( $efaktura ) {
 //		AvtaleGiro-logo
 if ( $avtalegiro ) {
 
-	//		Argumenter: 
+	//		Argumenter:
 	$pdf->Image(
 		"../bilder/AvtaleGiro_print_4000_764.png",
 		$X+55-28.4,// x-posisjon i mm for øverste venstre hjørne
 		$Y,		// y-posisjon i mm for øverste venstre hjørne
 		28.4,	// bredde i mm eller 0 for automatisk
 		0,		// høyde i mm eller 0 for automatisk
-		'png'	// 
+		'png'	//
 	);
 
 	//		Tekst om avtaleGiro

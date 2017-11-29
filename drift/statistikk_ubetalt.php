@@ -88,7 +88,7 @@ Ext.onReady(function() {
 		getText: function(thumb){
 			if(thumb.value > 27)
 				return '28. - 31. hver måned';
-			else 
+			else
 				return String.format('{0}. hver måned', thumb.value);
 		}
 	});
@@ -151,7 +151,7 @@ function taimotSkjema() {
 function hentData($data = "") {
 	switch ($data) {
 		case "innbetalinger":
-			$sql = 	$this->hoveddata = 
+			$sql = 	$this->hoveddata =
 				"SELECT MONTH(dato) AS måned, YEAR(dato) AS år, SUM(innbetalinger.beløp) AS innbetalt\n"
 			.	"FROM innbetalinger\n"
 			.	"WHERE konto != '0'\n"
@@ -173,7 +173,7 @@ function hentData($data = "") {
 			}
 			return json_encode($resultat);
 		case "utestående":
-			$sql = 	$this->hoveddata = 
+			$sql = 	$this->hoveddata =
 				"
 					SELECT DISTINCT DATE_FORMAT(dato, '%Y-%m-{$this->POST['månedsdato']}') AS dato
 					FROM innbetalinger

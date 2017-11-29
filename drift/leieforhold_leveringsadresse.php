@@ -46,15 +46,15 @@ Ext.onReady(function() {
 
 	Ext.define('Leieobjekt', {
 		 extend: 'Ext.data.Model',
-		 
+		
 		 // http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.data.Field
 		 fields: [
 			 {name: 'leieobjektnr',				type: 'int'},
 			 {name: 'beskrivelse',				type: 'string'}
 		 ]
 	 });
-	 
-	 
+	
+	
 	var hjelp = Ext.create('Ext.window.Window', {
 		title: 'Veiledning',
 		width: 700,
@@ -316,7 +316,7 @@ Ext.onReady(function() {
 
 		actionfailed: function(form,action){
 			if(action.type == 'submit') {
-				var result = Ext.decode(action.response.responseText); 
+				var result = Ext.decode(action.response.responseText);
 				if(result && result.msg) {			
 					Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 				}

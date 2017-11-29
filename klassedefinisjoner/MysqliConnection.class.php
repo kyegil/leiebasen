@@ -19,6 +19,71 @@ public function __construct() {
 
 
 
+/* SQL value
+Convert $variable types to SQL values
+******************************************
+$value (mixed) The value to convert
+------------------------------------------
+return: (string) The converted value
+*/
+protected function _sqlValue(
+	$value
+) {
+	$additionalOperator = false;
+	if( is_null( $value ) ) {
+		return "NULL";
+	}
+	if( is_bool( $value ) ) {
+		return $value ? '1' : '0';
+	}
+	if( is_int( $value ) or is_float( $value ) ) {
+		return $value;
+	}
+	else {
+		return "'{$this->escape($value)}'";
+	}
+}
+
+
+
+/*	Write SQL statement
+Evaluate input value and write a SQL statement
+******************************************
+$statement (string) left part of the statement
+$value (mixed) value that may need escaping
+------------------------------------------
+return: (string) sql-syntax
+*/
+protected function _writeStatement(
+	string $statement = '',
+	$value = null
+) {
+	$additionalOperator = false;
+	if(
+			mb_substr($statement, -1)	!=	'='
+		and mb_substr($statement, -1)	!=	'<'
+		and mb_substr($statement, -1)	!=	'>'
+		and strtoupper( mb_substr($statement, -3) )	!=	' IS'
+		and strtoupper( mb_substr($statement, -4) )	!=	' NOT'
+		and strtoupper( mb_substr($statement, -5) )	!=	' LIKE'
+	) {
+		$additionalOperator = true;
+	}
+
+	if( is_null( $value ) ) {
+		return $statement
+			. ($additionalOperator ? " IS " : " ")
+			. $this->_sqlValue($value);
+	}
+	else {
+		return $statement
+			. ($additionalOperator ? " = " : " ")
+			. $this->_sqlValue($value);
+	}
+}
+
+
+
 /*	Array Fields
 Turn array of field names into MySQL string
 ******************************************
@@ -52,76 +117,95 @@ $operator (string):	The logical operator
 ------------------------------------------
 return: (string) sql-syntax
 */
-public function where( $array, $operator = 'AND' ) {
+public function where(
+	$array,
+	string $combiner = 'AND'
+	) {
+	
 	if( is_string($array) ) {
-		return $array;
+// ?		return $array;
 	}
 	settype($array, 'array');
 	
-	switch( strtolower(trim($operator)) ) {
-		case 'or': {
-			$operator = 'or';
+	/*
+	Streamlining the combiners to uppercase AND, OR, XOR
+	*/
+	switch( strtoupper(trim($combiner)) ) {
+		case 'OR': {
+			$combiner = 'OR';
 			break;
 		}
-		case 'xor': {
-			$operator = 'xor';
+		case 'XOR': {
+			$combiner = 'XOR';
 			break;
 		}
 		default: {
-			$operator = 'and';
+			$combiner = 'AND';
 			break;
 		}
 	}
 	
 	$set = array();
 
+	/*
+	Handle each condition in the array
+	*/
 	foreach( $array as $condition => $value ) {
 		$condition = trim( $condition );
-		if(is_numeric( $condition )) {
-			$condition = 'and';
-		}
-		
+		$additionalOperator = false;
+
+		/*
+		Look out for extra combiners
+		*/
 		if(
-			strtolower($condition) === 'or'
-			or strtolower($condition) === 'xor'
-			or strtolower($condition) === 'and'
+			strtoupper($condition) === 'OR'
+			or strtoupper($condition) === 'XOR'
+			or strtoupper($condition) === 'AND'
 		) {
 			$set[] = $this->where( $value, $condition );
 		}
 		
+		
 		else {
-			if(
-					mb_substr($condition, -1)	!=	'='
-				and mb_substr($condition, -1)	!=	'<'
-				and mb_substr($condition, -1)	!=	'>'
-				and strtolower( mb_substr($condition, -3) )	!=	' is'
-				and strtolower( mb_substr($condition, -4) )	!=	' not'
-				and strtolower( mb_substr($condition, -5) )	!=	' like'
-			) {
-				$condition .= ' =';
+		
+			/*
+			If no condition is found in the key,
+			the entire expression is expected to be found in the value
+			*/
+			if(is_numeric( $condition )) {
+				$set[] = $value;
 			}
-			if( is_array( $value ) or is_object( $value )) {
-				array_walk($value, array($this, 'escape'));
-				$set[]
-					= "({$condition} '" . implode("' or {$condition} '", $value) . "')";
+			
+			/*
+			If the condition contains '$$' variables
+			it's treated as a complete expression,
+			and all $$ are replaced by escaped values
+			*/
+			else if(
+				strpos( $condition, '$$' ) !== false
+				and is_array($value)
+			)
+			{
+				foreach($value as $key => $string) {
+					$condition = str_replace('$$', $this->_sqlValue($string), $condition);
+				}
+				$set[] = $condition;
+			}
+			
+			else if( is_array( $value )) {
+				$subset = array();
+				foreach($value as $key => $string) {
+					$subset[] = $this->_writeStatement($condition, $string);
+				}
+				$set[] = "(" . implode("\n\tOR\n", $subset) . ")";
 			}
 			else {
-				if( is_null( $value ) ) {
-					$set[] = "{$condition} NULL";
-				}
-				else if( is_bool( $value ) ) {
-					$set[] = "{$condition} " . ($value ? 'TRUE' : 'FALSE');
-				}
-				else if( is_int( $value ) or is_float( $value ) ) {
-					$set[] = "{$condition} {$this->escape($value)}";
-				}
-				else {
-					$set[] = "{$condition} '{$this->escape($value)}'";
-				}
+			
+				$set[]  = $this->_writeStatement($condition, $value);
 			}
 		}
 	}
-	return " (" . implode(" {$operator} ", $set) . ") ";
+	return " (" . implode(" {$combiner} ", $set) . ") ";
 }
 
 
@@ -223,8 +307,11 @@ public function escape($string) {
 	if( is_array( $string ) ) {
 		throw new Exception( print_r($string, true) );
 	}
-	settype( $string, 'string' );
-	return $this->real_escape_string(get_magic_quotes_gpc() ? stripslashes($string) : $string);
+	if(is_string($string)) {
+		return $this->real_escape_string(get_magic_quotes_gpc() ? stripslashes($string) : $string);
+	}
+	
+	return $string;
 }
 
 

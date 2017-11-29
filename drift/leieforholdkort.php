@@ -322,7 +322,7 @@ Ext.onReady(function() {
 		pageSize: 100,
 		buffered: true,
         leadingBufferZone: 100,
-        
+       
 		proxy: {
 			type: 'ajax',
 			simpleSortMode: true,
@@ -355,7 +355,7 @@ Ext.onReady(function() {
 		pageSize: 100,
 		buffered: true,
         leadingBufferZone: 100,
-        
+       
 		proxy: {
 			type: 'ajax',
 			simpleSortMode: true,
@@ -607,7 +607,7 @@ Ext.onReady(function() {
 			{
 				dataIndex: 'dato',
 				header: 'Dato',
-				renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+				renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 				renderer: gråfremtid,
 				sortable: true,
 				width: 70
@@ -728,7 +728,7 @@ Ext.onReady(function() {
 			{
 				dataIndex: 'dato',
 				header: 'Dato',
-				renderer: Ext.util.Format.dateRenderer('d.m.Y'), 
+				renderer: Ext.util.Format.dateRenderer('d.m.Y'),
 				sortable: true,
 				width: 70
 			},
@@ -1429,7 +1429,7 @@ Ingen deltakelse
 		$forfall = $krav->hent('forfall');
 		if( $forfall > $fradato and $forfall <= new DateTime ) {
 			$betalt = $krav->hent('betalt');
-			$løpende = $løpende || !$betalt; 
+			$løpende = $løpende || !$betalt;
 //			$betalt = $betalt ? $betalt : new DateTime;
 			if($betalt) {
 				$antallDager += $betalt->diff($forfall)->format('%r%a');

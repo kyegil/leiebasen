@@ -128,7 +128,7 @@ function hentData($data = "") {
 				.	"ORDER BY kontrakter.kontraktnr DESC";
 			$leieforhold = $this->arrayData($sql);
 			foreach($leieforhold['data'] as $kontrakt){
-				$resultat .= 
+				$resultat .=
 "<table>
 	<tr style=\"vertical-align: text-top;\">
 		<td>

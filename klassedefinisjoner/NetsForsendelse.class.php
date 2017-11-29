@@ -30,7 +30,7 @@ Denne fila ble sist oppdatert 2016-02-23
 
 class NetsForsendelse {
 
-public		$records = array();	// Alle records i forsendelsen, 
+public		$records = array();	// Alle records i forsendelsen,
 								// inkl start- og sluttrecord
 public		$startrecord;		// Forsendelsens startrecord
 public		$sluttrecord;		// Forsendelsens sluttrecord
@@ -46,16 +46,16 @@ public		$antallRecords; 	// Antall records i følge sluttrecord
 public		$antallTransaksjoner; // Antall transaksjoner dersom aktuelt
 public		$sumBeløp;			// Sum kronebeløp dersom aktuelt
 public		$dato; 				// Nets dato / oppgjørsdato / første forfallsdato
-								//	oppgitt i felt 8 (posisjon 42-47) i sluttrecord 
+								//	oppgitt i felt 8 (posisjon 42-47) i sluttrecord
 public		$fildato; 			// Evt dato oppgitt i posisjon 32-39 i startrecord
 public		$oppdrag = array();	// Alle oppdragene i forsendelsen
 
-protected	$gyldig = false;	// Om forsendelsen er gyldig eller ikke 
+protected	$gyldig = false;	// Om forsendelsen er gyldig eller ikke
 protected	$peker;				// Intern peker for å angi posisjon i forsendelsen
 								// Når denne er null befinner behandlingen seg
 								// utenfor behandling.
 protected	$feilkode;			// Feilkode
-protected	$msg = "";			// Feilmelding 
+protected	$msg = "";			// Feilmelding
 
 
 // Constructor
@@ -68,7 +68,7 @@ public function __construct( $records = array() ) {
 		$records = explode("\n", $records);
 	}
 	
-	settype( $records, 'array' ); 
+	settype( $records, 'array' );
 	$this->records = $records;
 //	$this->records = array_map("trim", $records);
 	
@@ -361,7 +361,7 @@ public function feilmelding( $kode ) {
 // 											15 Transaksjon fra AvtaleGiro
 // 											16 Transaksjon fra TeleGiro
 // 											17 Transaksjon fra Giro - betalt kontant
-// 
+//
 // 											Transaksjon fra betalingsterminal og nettbetalinger:
 // 											18 Reversering med KID
 // 											19 Kjøp med KID
@@ -378,7 +378,7 @@ public function bbsLesTjeneste9( $record, $recordtype ) {
 	// Startrecord for oppdrag
 	case 20:
 		// Et nytt oppdrag legges til på nåværende nivå,
-		// og pekeren flyttes inn i det nye oppdragsobjektet 
+		// og pekeren flyttes inn i det nye oppdragsobjektet
 		$oppdrag = eval("return $this->peker;");
 		settype( $oppdrag->oppdrag, 'array' );
 		$this->peker .= "->oppdrag[ " . ($index = count( $oppdrag->oppdrag )) . " ]";
@@ -465,8 +465,8 @@ public function bbsLesTjeneste9( $record, $recordtype ) {
 				= (int)substr( $record, 25, 9 );
 		}
 		else if(
-			$transaksjon->transaksjonstype >= 18 
-			&& $transaksjon->transaksjonstype <= 21 
+			$transaksjon->transaksjonstype >= 18
+			&& $transaksjon->transaksjonstype <= 21
 		) {
 			$transaksjon->baxnr
 				= (int)substr( $record, 25, 6 );
@@ -551,7 +551,7 @@ public function bbsLesTjeneste9( $record, $recordtype ) {
 		$this->peker = substr(
 			$this->peker,
 			0,
-			strrpos( 
+			strrpos(
 				$this->peker,
 				"->oppdrag["
 			)
@@ -608,7 +608,7 @@ public function bbsLesTjeneste21( $record, $recordtype ) {
 		case 20:	// Startrecord oppdrag
 
 			// Et nytt oppdrag legges til på nåværende nivå,
-			// og pekeren flyttes inn i det nye oppdragsobjektet 
+			// og pekeren flyttes inn i det nye oppdragsobjektet
 			$oppdrag = eval("return $this->peker;");
 			settype( $oppdrag->oppdrag, 'array' );
 			$this->peker .= "->oppdrag[ " . ($index = count( $oppdrag->oppdrag )) . " ]";
@@ -641,7 +641,7 @@ public function bbsLesTjeneste21( $record, $recordtype ) {
 			$this->peker = substr(
 				$this->peker,
 				0,
-				strrpos( 
+				strrpos(
 					$this->peker,
 					"->oppdrag["
 				)
@@ -905,7 +905,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 		// Record Start oppdrag for mottatt forsendelse
 		case 63:
 			// Et nytt oppdrag legges til på nåværende nivå,
-			// og pekeren flyttes inn i det nye oppdragsobjektet 
+			// og pekeren flyttes inn i det nye oppdragsobjektet
 			$oppdrag = eval("return $this->peker;");
 			settype( $oppdrag->oppdrag, 'array' );
 			$this->peker .= "->oppdrag[ " . ($index = count( $oppdrag->oppdrag )) . " ]";
@@ -939,7 +939,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 			$this->peker = substr(
 				$this->peker,
 				0,
-				strrpos( 
+				strrpos(
 					$this->peker,
 					"->oppdrag["
 				)
@@ -962,7 +962,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 		// Record Start oppdrag for prosessert forsendelse
 		case 63: {
 			// Et nytt oppdrag legges til på nåværende nivå,
-			// og pekeren flyttes inn i det nye oppdragsobjektet 
+			// og pekeren flyttes inn i det nye oppdragsobjektet
 			$oppdrag = eval("return $this->peker;");
 			settype( $oppdrag->oppdrag, 'array' );
 			$this->peker .= "->oppdrag[ " . ($index = count( $oppdrag->oppdrag )) . " ]";
@@ -997,7 +997,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 			$this->peker = substr(
 				$this->peker,
 				0,
-				strrpos( 
+				strrpos(
 					$this->peker,
 					"->oppdrag["
 				)
@@ -1021,7 +1021,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 		// Record Start oppdrag for prosessert transaksjoner
 		case 64:
 			// Et nytt oppdrag legges til på nåværende nivå,
-			// og pekeren flyttes inn i det nye oppdragsobjektet 
+			// og pekeren flyttes inn i det nye oppdragsobjektet
 			$oppdrag = eval("return $this->peker;");
 			settype( $oppdrag->oppdrag, 'array' );
 			$this->peker .= "->oppdrag[ " . ($index = count( $oppdrag->oppdrag )) . " ]";
@@ -1065,7 +1065,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 			$this->peker = substr(
 				$this->peker,
 				0,
-				strrpos( 
+				strrpos(
 					$this->peker,
 					"->oppdrag["
 				)
@@ -1087,7 +1087,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 		case 20:	// Startrecord oppdrag
 
 			// Et nytt oppdrag legges til på nåværende nivå,
-			// og pekeren flyttes inn i det nye oppdragsobjektet 
+			// og pekeren flyttes inn i det nye oppdragsobjektet
 			$oppdrag = eval("return $this->peker;");
 			settype( $oppdrag->oppdrag, 'array' );
 			$this->peker .= "->oppdrag[ " . ($index = count( $oppdrag->oppdrag )) . " ]";
@@ -1337,7 +1337,7 @@ public function bbsLesTjeneste42( $record, $recordtype ) {
 			$this->peker = substr(
 				$this->peker,
 				0,
-				strrpos( 
+				strrpos(
 					$this->peker,
 					"->oppdrag["
 				)
@@ -1479,7 +1479,7 @@ public function skrivTjeneste21( $oppdrag ) {
 		$oppdrag->sumBeløp = 0;
 		
 		// Skriv startrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "21" /* (tjenestekode) */
 		. "00" /* (oppdragstype) */
@@ -1594,7 +1594,7 @@ public function skrivTjeneste21( $oppdrag ) {
 					);
 				}
 
-				$transaksjon->records[] = 
+				$transaksjon->records[] =
 					"NY" /* (formatkode) */
 					. "21" /* (tjenestekode) */
 					. $this->_num( $transaksjon->transaksjonstype, 2)
@@ -1606,7 +1606,7 @@ public function skrivTjeneste21( $oppdrag ) {
 					. $this->_num( $oppdrag->kid, 25, " ")
 					. str_repeat("0", 6);  /* (filler) */
 		
-				$transaksjon->records[] = 
+				$transaksjon->records[] =
 					"NY" /* (formatkode) */
 					. "21" /* (tjenestekode) */
 					. $this->_num( $transaksjon->transaksjonstype, 2)
@@ -1628,7 +1628,7 @@ public function skrivTjeneste21( $oppdrag ) {
 						
 						if( trim( $tekstlinje ) ) {
 		
-							$transaksjon->records[] = 
+							$transaksjon->records[] =
 								"NY" /* (formatkode) */
 								. "21" /* (tjenestekode) */
 								. $this->_num( $transaksjon->transaksjonstype, 2)
@@ -1644,7 +1644,7 @@ public function skrivTjeneste21( $oppdrag ) {
 						
 						if( strlen( trim( $tekstlinje ) ) > 40 ) {
 		
-							$transaksjon->records[] = 
+							$transaksjon->records[] =
 								"NY" /* (formatkode) */
 								. "21" /* (tjenestekode) */
 								. $this->_num( $transaksjon->transaksjonstype, 2)
@@ -1668,7 +1668,7 @@ public function skrivTjeneste21( $oppdrag ) {
 		$oppdrag->antallRecords = count( $oppdrag->records ) + 1;
 		
 		// Skriv sluttrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "21" /* (tjenestekode) */
 		. "00" /* (transaksjonstype) */
@@ -1708,7 +1708,7 @@ public function skrivTjeneste21( $oppdrag ) {
 		$oppdrag->sumBeløp = 0;
 		
 		// Skriv startrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "21" /* (tjenestekode) */
 		. "36" /* (oppdragstype) */
@@ -1750,7 +1750,7 @@ public function skrivTjeneste21( $oppdrag ) {
 					$oppdrag->førsteForfall = min($transaksjon->forfallsdato, $oppdrag->førsteForfall );
 				}
 
-				$transaksjon->records[] = 
+				$transaksjon->records[] =
 					"NY" /* (formatkode) */
 					. "21" /* (tjenestekode) */
 					. "93" /* (transaksjonstype) */
@@ -1770,7 +1770,7 @@ public function skrivTjeneste21( $oppdrag ) {
 		$oppdrag->antallRecords = count( $oppdrag->records ) + 1;
 		
 		// Skriv sluttrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "21" /* (tjenestekode) */
 		. "36" /* (oppdragstype) */
@@ -1826,7 +1826,7 @@ public function skrivTjeneste42( $oppdrag ) {
 		$oppdrag->sumBeløp = 0;
 		
 		// Skriv startrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "42" /* (tjenestekode) */
 		. "03" /* (transaksjonstype) */
@@ -1940,7 +1940,7 @@ public function skrivTjeneste42( $oppdrag ) {
 		$oppdrag->antallRecords = count( $oppdrag->records ) + 1;
 		
 		// Skriv sluttrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "42" /* (tjenestekode) */
 		. "03" /* (transaksjonstype) */
@@ -1972,7 +1972,7 @@ public function skrivTjeneste42( $oppdrag ) {
 		$this->antallTransaksjoner += $oppdrag->antallTransaksjoner;
 		
 		// Skriv startrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "42" /* (tjenestekode) */
 		. "94" /* (transaksjonstype) */
@@ -1985,7 +1985,7 @@ public function skrivTjeneste42( $oppdrag ) {
 	
 		foreach( $oppdrag->transaksjoner as $transaksjon ) {
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -1996,7 +1996,7 @@ public function skrivTjeneste42( $oppdrag ) {
 			. $this->_str( $transaksjon->efakturaRef, 31)
 			. str_repeat("0", 32);  /* (filler) */
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -2007,7 +2007,7 @@ public function skrivTjeneste42( $oppdrag ) {
 			. str_repeat(" ", 40)  /* (filler) */
 			. str_repeat("0", 22);  /* (filler) */
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -2017,7 +2017,7 @@ public function skrivTjeneste42( $oppdrag ) {
 			. $this->_str( @$transaksjon->etternavn, 30)
 			. str_repeat("0", 5);  /* (filler) */
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -2029,7 +2029,7 @@ public function skrivTjeneste42( $oppdrag ) {
 			. $this->_str( @$transaksjon->forbruker->poststed, 25)
 			. str_repeat("0", 2);  /* (filler) */
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -2041,7 +2041,7 @@ public function skrivTjeneste42( $oppdrag ) {
 			. $this->_str( @$transaksjon->forbruker->landskode, 3)
 			. str_repeat("0", 1);  /* (filler) */
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -2052,7 +2052,7 @@ public function skrivTjeneste42( $oppdrag ) {
 			. $this->_str( @$transaksjon->forbruker->telefax, 20)
 			. str_repeat("0", 24);  /* (filler) */
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -2061,7 +2061,7 @@ public function skrivTjeneste42( $oppdrag ) {
 			. "2"  /* (Melding 2 = Forbruker) */
 			. $this->_str( @$transaksjon->forbruker->email, 64);
 
-			$oppdrag->records[] = 
+			$oppdrag->records[] =
 			"NY" /* (formatkode) */
 			. "42" /* (tjenestekode) */
 			. "94" /* (transaksjonstype) */
@@ -2074,7 +2074,7 @@ public function skrivTjeneste42( $oppdrag ) {
 		$oppdrag->antallRecords = count( $oppdrag->records ) + 1;
 		
 		// Skriv sluttrecord for oppdraget
-		$oppdrag->records[] = 
+		$oppdrag->records[] =
 		"NY" /* (formatkode) */
 		. "42" /* (tjenestekode) */
 		. "94" /* (transaksjonstype) */

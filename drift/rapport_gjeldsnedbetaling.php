@@ -130,8 +130,8 @@ Ext.onReady(function() {
 	datasett.on('beforeload', function() {
 		datasett.getProxy().extraParams.fra = fra.getValue();
 		datasett.getProxy().extraParams.til = til.getValue();
-		datasett.getProxy().extraParams.kravfra = kravfra.getValue();     
-		datasett.getProxy().extraParams.kravtil = kravtil.getValue();     
+		datasett.getProxy().extraParams.kravfra = kravfra.getValue();    
+		datasett.getProxy().extraParams.kravtil = kravtil.getValue();    
 	});
 
 
@@ -211,7 +211,7 @@ Ext.onReady(function() {
 	});
 	
 	var pagingtb = Ext.create('Ext.toolbar.Paging',{
-		store: datasett, 
+		store: datasett,
 		dock: 'bottom',
 		displayInfo: true
 	});
@@ -247,7 +247,7 @@ Ext.onReady(function() {
 				width: 130,
 				sortable: true,
  				summaryRenderer: function(value, summaryData, dataIndex) {
- 					return 'Sum denne side:'; 
+ 					return 'Sum denne side:';
  				}
 			},
 			{

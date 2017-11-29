@@ -153,7 +153,7 @@ function taimotSkjema() {
 function hentData($data = "") {
 	switch ($data) {
 		case "innbetalinger":
-			$sql = 	$this->hoveddata = 
+			$sql = 	$this->hoveddata =
 				"SELECT MONTH(dato) AS måned, YEAR(dato) AS år, SUM(innbetalinger.beløp) AS innbetalt\n"
 			.	"FROM innbetalinger\n"
 			.	"WHERE konto != '0'\n"

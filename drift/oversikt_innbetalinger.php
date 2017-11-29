@@ -68,7 +68,7 @@ Ext.onReady(function() {
 		align: 'right',
 		dataIndex: 'dato',
 		header: 'Periode',
-		renderer: Ext.util.Format.dateRenderer('F Y'), 
+		renderer: Ext.util.Format.dateRenderer('F Y'),
 		sortable: true,
 		width: 100
 	}, {

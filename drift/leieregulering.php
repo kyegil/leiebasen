@@ -52,7 +52,7 @@ function skript() {
 		
 		// Gjennomfør kun dersom Justeringsbeløp, prosentsats og dato er angitt
 		if(
-			$ikrafttreden > date_create() 
+			$ikrafttreden > date_create()
 			and ( $justeringsbeløp xor $prosentsats )
 		) {
 		

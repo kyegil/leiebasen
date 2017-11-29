@@ -125,14 +125,14 @@ protected function _utløs( $stadium ) {
 }
 
 
-// Denne funksjonen må være definert i alle Classens Children 
+// Denne funksjonen må være definert i alle Classens Children
 /****************************************/
 //	--------------------------------------
 //	$egenskap (streng) Egenskapen som skal hentes	
 abstract public function hent($egenskap);
 
 
-// Denne funksjonen må være definert i alle Classens Children 
+// Denne funksjonen må være definert i alle Classens Children
 /****************************************/
 //	--------------------------------------
 //	$egenskaper (array) Verdier som angis for det nye objektet

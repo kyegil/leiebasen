@@ -63,7 +63,7 @@ $transaksjonstype = $leiebase->fastStrenglengde(
 
 /********************************************/
 /*	Beløpspost 1 (rec.type 30)				*/
-/*	Beløpspost 1 og 2 må̊ fylles ut 
+/*	Beløpspost 1 og 2 må̊ fylles ut
 for at transaksjonen skal være gyldig.		*/
 echo  "NY" /* (formatkode) */
 	. "21" /* (tjenestekode		= 21 avtalegiro) */
@@ -84,7 +84,7 @@ echo  "NY" /* (formatkode) */
 
 /********************************************/
 /*	Beløpspost 2 (rec.type 31)				*/
-/*	Beløpspost 1 og 2 må̊ fylles ut 
+/*	Beløpspost 1 og 2 må̊ fylles ut
 for at transaksjonen skal være gyldig.		*/
 echo  "NY" /* (formatkode) */
 	. "21" /* (tjenestekode		= 21 avtalegiro) */

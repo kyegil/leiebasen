@@ -72,15 +72,15 @@ Ext.onReady(function() {
 
 	Ext.define('Person', {
 		 extend: 'Ext.data.Model',
-		 
+		
 		 // http://docs.sencha.com/extjs/4.2.2/#!/api/Ext.data.Field
 		 fields: [
 			 {name: 'id',	type: 'int'},
 			 {name: 'navn',	type: 'string'}
 		 ]
 	 });
-	 
-	 
+	
+	
 	var hjelp = Ext.create('Ext.window.Window', {
 		title: 'Veiledning',
 		width: 700,

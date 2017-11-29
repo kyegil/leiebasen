@@ -529,12 +529,12 @@ Ext.onReady(function() {
 			if(action.type == 'load') {
 				<?php echo $låst ? 'aktiverFelter();' : '' ;?>
 				lagreknapp.enable();
-			} 
+			}
 		},
 							
 		actionfailed: function(form,action) {
 			if(action.type == 'load') {
-				if (action.failureType == "connect") { 
+				if (action.failureType == "connect") {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke laste data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {
@@ -557,7 +557,7 @@ Ext.onReady(function() {
 					Ext.MessageBox.alert('Problem:', 'Klarte ikke lagre data. Fikk ikke kontakt med tjeneren.');
 				}
 				else {	
-					var result = Ext.JSON.decode(action.response.responseText); 
+					var result = Ext.JSON.decode(action.response.responseText);
 					if(result && result.msg) {			
 						Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg);
 					}
@@ -900,7 +900,7 @@ function taimotSkjema( $skjema ) {
 			if( "{$fortegn}{$beløp}" != $krav->hent('beløp') ) {
 				if(!$resultat->success = $krav->sett('beløp',			"{$fortegn}{$beløp}")) {
 				$resultat->msg	.= "Klarte ikke lagre beløpet<br>";
-			}
+				}
 				else {
 					$this->oppdaterUbetalt();
 				}

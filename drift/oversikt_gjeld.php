@@ -455,7 +455,7 @@ function hentData($data = "") {
 					'leiebeløp'		=> $leieforhold->hent('leiebeløp'),
 					'tilsvAntLeier'	=> (
 										$leieforhold->hent('leiebeløp')
-										? 
+										?
 										(
 											12 * $leieforhold->hent('utestående')
 											/ ($leieforhold->hent('leiebeløp') * $leieforhold->hent('ant_terminer'))

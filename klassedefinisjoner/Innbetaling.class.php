@@ -132,7 +132,7 @@ protected function _fordel( $del, $motkravsett, $maksbeløp ) {
 	}
 	
 	// -> Dersom det opprinnelige beløpet er endret
-	//		settes inn ei ny delbetaling med evt restbeløp 
+	//		settes inn ei ny delbetaling med evt restbeløp
 	if( !$gjenbruk and $restAvDelbeløp) {
 		$this->mysqli->saveToDb(array(
 			'table'		=> "{$tp}{$this->tabell}",
@@ -820,7 +820,7 @@ $motkrav (objekt, null eller av, normalt av):	Motkravet som betalinga skal kople
 	Det kan også være et Leieforhold-objekt,
 	noe som innebærer at alle kravene som tilhører dette leieforholdet frakoples.
 	Dersom motkravet er null, vil bare ufordelte deler av betalinga berøres, for å frakople leieforhold.
-$frakopleLeieforhold (boolsk, normalt sann):	Dersom sann vil betalinga 
+$frakopleLeieforhold (boolsk, normalt sann):	Dersom sann vil betalinga
 	ikke bare løsnes fra det enkelte kravet eller motbetalinga,
 	men også frakoples fra leieforholdet sånn at det kan krediteres et annet leieforhold
 $leieforhold (Leieforhold-objekt):	Dersom $motkrav er et Innbetalingsobjekt,
@@ -1310,7 +1310,7 @@ public function samle() {
 	foreach( $delbeløpsett as $delbeløp ) {
 		settype(
 			$a[strval($delbeløp->leieforhold)],
-			'array' 
+			'array'
 		);
 		
 		// Siden null som nøkkel formes som en tom streng, vil null som krav behandles annerledes enn 0
@@ -1326,7 +1326,7 @@ public function samle() {
 		
 		settype(
 			$a [strval($delbeløp->leieforhold)] ["{$fortegn}{$delbeløp->krav}"],
-			'array' 
+			'array'
 		);
 		$a [strval($delbeløp->leieforhold)] ["{$fortegn}{$delbeløp->krav}"] [$delbeløp->id]
 			= $delbeløp->beløp;

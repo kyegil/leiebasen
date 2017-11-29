@@ -267,7 +267,7 @@ Ext.onReady(function() {
 
 		actionfailed: function(form,action){
 			if(action.type == 'submit') {
-				var result = Ext.decode(action.response.responseText); 
+				var result = Ext.decode(action.response.responseText);
 				if(result && result.msg) {			
 					Ext.MessageBox.alert('Mottatt tilbakemelding om feil:', result.msg, function(){
 						window.location = '<?php echo $this->returi->get();?>';
@@ -568,7 +568,7 @@ function taimotSkjema() {
 		foreach($leie as $krav) {
 			while(
 				$grad = $leieobjekt->hentLeiekrav($krav->hent('fom'), $krav->hent('tom') )->grad > 1.0001
-				&& 
+				&&
 				$oppsigelsestid = $leieobjekt->hentLeiekrav($krav->hent('fom'), $krav->hent('tom') )->oppsigelsestid
 			) {
 				$kravForSletting = reset( $oppsigelsestid );

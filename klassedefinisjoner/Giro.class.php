@@ -77,7 +77,7 @@ public function fboOppdragsfrist( $forfall = null ) {
 	$bankfridager = $this->leiebase->bankfridager( $resultat->format('Y') );
 	while(
 		in_array( $resultat->format('m-d'), $bankfridager )
-		or $resultat->format('N') > 5 
+		or $resultat->format('N') > 5
 	) {
 		$resultat->sub(new DateInterval('P1D'));
 	}
@@ -263,7 +263,7 @@ public function gjengi($mal, $param = array()) {
 										$this->hent('utskriftsdato')
 										? $this->hent('utskriftsdato')
 										: new DateTime
-									) 
+									)
 			),
 			
 			// Angi inntil 5 valgfrie tekstfelter
@@ -1462,7 +1462,7 @@ public function sett($egenskap, $verdi = null) {
 			$bankfridager = $this->leiebase->bankfridager( $verdi->format('Y') );
 			while(
 				in_array( $verdi->format('m-d'), $bankfridager )
-				or $verdi->format('N') > 5 
+				or $verdi->format('N') > 5
 			) {
 				$verdi->add(new DateInterval('P1D'));
 			}
