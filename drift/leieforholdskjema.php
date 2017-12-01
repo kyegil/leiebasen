@@ -26,8 +26,14 @@ function skript() {
 	$kontraktdato = $sisteKontrakt->dato;
 	$minKontraktdato = clone $kontraktdato;
 	$tildato = $leieforhold->hent('tildato');
-	$maksKontraktdato = clone $tildato;
-	
+
+	if($tildato instanceof DateTime) {
+    	$maksKontraktdato = clone $tildato;
+    }
+	else {
+	    $maksKontraktdato = null;
+    }
+
 	if( count($kontrakter) == 1) {
 		$maksKontraktdato = $minKontraktdato;
 	}
@@ -209,7 +215,7 @@ Ext.onReady(function() {
 		
 		value: '<?php echo $kontraktdato->format('Y-m-d');?>',
 		minValue: '<?php echo $minKontraktdato->format('Y-m-d');?>',
-		maxValue: '<?php echo $maksKontraktdato->format('Y-m-d');?>',
+        <?php echo $maksKontraktdato ? "maxValue: '{$maksKontraktdato->format('Y-m-d')}',\n" : "";?>
 		format: 'd.m.Y',
 		submitFormat: 'Y-m-d'
 	});
@@ -254,7 +260,8 @@ Ext.onReady(function() {
 		allowDecimals: <?php echo $delkrav->relativ ? "true" : "false";?>,
 		allowNegative: false,
 		allowBlank: true,
-		readOnly: <?php echo $delkrav->valgfritt ? "false" : "true";?>,
+		readOnly: false,
+//		readOnly: <?php echo $delkrav->valgfritt ? "false" : "true";?>,
 		decimalPrecision: 5,
 		decimalSeparator: ',',
 		hideTrigger: true
@@ -886,4 +893,3 @@ function manipuler($data = "") {
 
 
 }
-?>
